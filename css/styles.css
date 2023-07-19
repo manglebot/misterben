@@ -48,6 +48,10 @@ body, html {
     /* overflow: auto; */
     flex-grow: 50;
   }
+
+  .right p {
+    font-weight: 300;
+  }
   
   .folio-item, .about {
     display: flex;
