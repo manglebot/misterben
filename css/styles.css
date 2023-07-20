@@ -49,6 +49,10 @@ body, html {
     flex-grow: 50;
   }
 
+  .right .title {
+    display: none;
+  }  
+
   .right p {
     font-weight: 300;
   }
@@ -130,6 +134,10 @@ body, html {
     /* padding: inherit; */
     width: 100%; /* Make the link fill the entire available width */
     height: 100%; /* Make the link fill the entire available height */
+  }
+
+  #main-logo div {
+    padding:0.3rem;
   }
 
   /* work page */
@@ -289,7 +297,6 @@ width: 100% !important; height: auto !important;
     top: 10px;
     z-index: 9999;
     margin-left: 300px;
-
   }
   .menu-toggle div {
     width: 35px;
@@ -319,13 +326,18 @@ width: 100% !important; height: auto !important;
   }
 
   .folio-item div img {
-    width: 99vw;
+    width: 93vw;
     max-height: fit-content;
   }
 
+  .right .title {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 2rem;
+  }
 
 }
-
 
   /* image colour shift effect */
 
