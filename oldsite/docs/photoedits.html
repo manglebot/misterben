@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Ben Bayliss portfolio website" />
+        <title>Misterben</title>
+
+        <!--  <meta name="robots" content="noindex">-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+        
+
+        <!-- <link rel="stylesheet" href="https://unpkg.com/beerslider/dist/BeerSlider.css"> -->
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+
+    <body>
+        <div class="loader df aic jcc">
+            <div>
+                <h1>Loading</h1>
+                <h2 class="loader--text">0%</h2>
+            </div>
+        </div>
+        <div class="main-content">
+            <header class="df aic jcc">
+                <div class="wobble" style="width: 50vw;">
+                   <!-- <span class="beta">BETA</span> -->
+                    <h1 id="title">misterben</h1>
+                    <h2>photo retouching </h2>
+                    <h3 class="links"><a href="../">home</a></h3>
+                </div>
+            </header>
+
+            <div class="moreinfo">               
+                    <h3>A few examples of my retouching.</h3>
+        
+                    <p class="spacer-after">The examples below were done with Affinity Photo, but I'll updload some Photoshop examples soon.</p>
+            </div>
+                    
+        
+
+            <div class="label">
+                <span>before</span>
+                <span>after</span>
+            </div>   
+            
+            <section id="sliders"> 
+                <div class="cocoen">
+                    <img src="../img/kids_orig.jpg" alt="kids unedited">
+                    <img src="../img/kids_ed.jpg" alt="kids edited">
+                </div>
+
+                <div class="cocoen">
+                    <img src="../img/field_orig.jpg" alt="field unedited">
+                    <img src="../img/field_ed.jpg" alt="field edited">
+                </div>
+
+                <div class="cocoen">
+                    <img src="../img/car_unedited.jpg" alt="car unedited">
+                    <img src="../img/car_green.jpg" alt="car with green background">
+                </div>
+
+                <div class="cocoen">
+                    <img src="../img/elf_orig.jpg" alt="elf unedited">
+                    <img src="../img/elf_edit.jpg" alt="elf with trees background">
+                </div>
+
+                <h3 class="links"><a href="../"> &LessLess; Home</a></h3>
+            </section>
+
+
+
+            <footer class="df aic jcc">
+            </footer>
+        </div>
+
+        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+        <!-- before-after slider -->
+        <!-- Load Cocoen library -->
+        <script src="https://unpkg.com/cocoen/dist/cocoen.js"></script>
+
+        <!-- Turns all `.cocoen` elements into Cocoens -->
+        <script>
+        Cocoen.parse(document.body);
+        </script>
+		
+        <script src="../js/main.js" type="module" crossorigin></script>
+    </body>
+</html>
