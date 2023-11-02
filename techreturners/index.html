@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessible Web Page</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link 
 </head>
 <body [aria-hidden="true"]>
     <header>
@@ -13,7 +14,6 @@
             <ul>
                 <li><a href="#section1">Section 1</a></li>
                 <li><a href="#section2">Section 2</a></li>
-                <li><a href="#section3">Section 3</a></li>
             </ul>
         </nav>
     </header>
@@ -23,21 +23,22 @@
             <header>
                 <h2>Section 1</h2>
             </header>
-            <p>This is the content of section 1.</p>
-            <footer>
-                <p>Published on October 31, 2023</p>
-            </footer>
+            <p>This is the content of section 1.<br>
+                This is in a paragraph tag, but for some reason Wave plugin is saying that this is a header. This is wrong by the wave plugin. Actually on checking, it seems that it was just an error before I added in lots of text. Hence this long block of slightly pointless text that tells the plugin that this isn't a header. What fun.</p>
         </article>
 
         <section id="section2">
             <header>
                 <h2>Section 2</h2>
             </header>
-            <p>This is the content of section 2.</p>
+            <p>This is the content of section 2.<br>
+                I finally gave up on my 8 year old espresso machine. It works perfectly, but started making horrible coffee. I tried pretty much everything to fix it up, but alas it just makes the water taste bad. Below is an image of my new machine. It's not yet been delivered, so I am just surviving on filter coffee for a bit. The missus is not happy.</p>
+            <p><img src="https://global-uploads.webflow.com/5f17639b4b18ef4943eb27ed/5f443784524d56343838bc70_rancilio%20silvia.jpg" width = 400" alt="Stock photo of a Rancilio Silvia espresso machine"></p>
+            <p>Stock photo of a Rancilio Silvia espresso machine</p>
         </section>
 
         <aside>
-            <h2>Related Information</h2>
+            <h2>Un-related Information</h2>
             <ul>
                 <li><a href="#">Link 1</a></li>
                 <li><a href="#">Link 2</a></li>
@@ -47,7 +48,7 @@
     </main>
 
     <footer>
-        <p>This is the footer</p>
+        <p>This is the footer. Coffee can help get me on my feet every day.</p>
     </footer>
 </body>
 </html>
