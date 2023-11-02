@@ -1,8 +1,8 @@
 body {
     font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',Arial,sans-serif;
-
     background-color: #CCE5FF;
     color: #0A4980;
+    font-size: larger;
 }
 
 nav {
@@ -25,4 +25,8 @@ article, section, aside, footer {
 
 h1 {
     text-align: center;
+}
+
+img {
+    border-radius: 12px;
 }
