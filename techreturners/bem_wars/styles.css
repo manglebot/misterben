@@ -1,0 +1,132 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #000;
+  background-image: url("images/outer-space.jpg");
+  background-size: cover;
+  font: 400 15px/1.8 "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  font-size: 4rem;
+  height: 6rem;
+  margin-top: 0;
+  background: -webkit-linear-gradient(#fff, #6f62c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card styles */
+.card {
+  width: 20rem;
+  /* height: 21rem; */
+  border-radius: 50%;
+  border: solid 6px;
+  margin: 20px 50px;
+  padding: 20px;
+  border-color: #fff;
+  font-weight: bold;
+  transition: all 0.9s ease-out;
+}
+
+.card__dark {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: black;
+  text-align: right;
+  border-color: #d10000;
+  box-shadow: 0 0 29px 6px #fff, 0 0 50px 0px #d10000, 0 0 60px 50px #d10000;
+}
+
+.card__light {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: white;
+  color: #000;
+  border-color: #0a98eb93;
+  box-shadow: 0 0 29px 6px #fff, 0 0 50px 0px #0a98eb, 0 0 60px 50px #0a98eb;
+}
+
+.card__header {
+  font-size: 2em;
+  margin: 0 auto 10px;
+}
+
+.card__header-dark {
+  text-align: right;
+}
+
+.card__img {
+  height: 200px;
+}
+
+.card__p {
+  font-size:0.8rem;
+  text-decoration: dotted;
+}
+
+/* button styles */
+.button {
+  border: 2px solid #111;
+  cursor: pointer;
+  height: 48px;
+  line-height: 24px;
+  padding: 0 25px;
+  border-radius: 8px;
+}
+
+.button:after {
+  border-radius: 8px;
+}
+
+.button:hover:after {
+  border-color: #ccc;
+}
+
+.button:active {
+  background-color: black;
+  outline: 0;
+}
+
+.button:hover {
+  outline: 0;
+  transition: all .3s ease-out;
+}
+
+.button__dark {
+  color: white;
+  background-color: #d10000;
+  border: solid #efefef;
+}
+
+.button__dark:hover {
+  border-color: #d10000;
+}
+
+.card:has(.button__dark:hover) {
+  z-index: 1;
+  box-shadow: 0 0 39px 40px #fff, 0 0 250px 630px #d1000095, 0 0 200px 650px #d1000095;
+  transition: all 10s ease-out;
+}
+
+.button__light {
+  color: white;
+  background-color: #0a98eb;
+}
+
+.button__light:hover {
+  border-color: #0a98eb;
+}
+
+.card:has(.button__light:hover) {
+  box-shadow: 0 0 29px 40px #fff, 0 0 250px 630px #0a98eb93, 0 0 200px 650px #0a98eb93;
+  transition: all 10s ease-out;
+}
