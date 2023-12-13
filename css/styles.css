@@ -14,166 +14,164 @@ dff4e8 - hint of green.... nah
 
 */
 
-
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #e4e6de;
-    color: #363A40;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    min-height: 100%;
-    display: flex;
-  }
-  .container > .left {
-    width: 30%;
-    max-width: 300px;
-    overflow: auto;
-    height: 50rem;
-    flex-grow: 1;
-    padding: 1em 0 0 1em;
-
-  }
-  .container > .right {
-    /* background-color: #fff; */
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-    /* overflow: auto; */
-    flex-grow: 50;
-  }
-
-  .right .title {
-    display: none;
-  }  
-
-  .right p {
-    font-weight: 300;
-  }
-  
-  .folio-item, .about {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 100%;
-    /* outline: solid pink; */
-  }
-  
-  .folio-item > a > div:first-child {
-    flex-shrink: 1;
-    flex: 1;
-    min-width: 0;
-    overflow: hidden;
-  }
-
-  .folio-item > div:last-child {
-    flex-shrink: 0;
-  }
-
- h2 {
-    font-size: 2rem;
-    /* background-color: #fff; */
-  }
-
-  .about h1, .about p {
-    padding-left: 1rem;
-    max-width: 600px;
-  }
-
-  a {
-    color: black;
-    text-decoration-color: orange;
-    text-decoration-style: solid;
-    text-underline-offset: 3px;
-
-  }
-
-  a:hover {
-    text-decoration-style: wavy;
-  }
-
-  #contact {
-    padding-bottom: 2em;
-  }
-  
-/* menu */
-  .menu input[type=radio],
-  .menu-toggle {
-    display: none;
-  }
-  
-  .menu > li > label {
-    display: block;
-    cursor: pointer;
-    padding: 0.7em;
-  }
-  .menu > li > label:hover {
-    background-color: #fff; 
-  }
-  .menu input[type=radio]:checked {
-    max-height: 300px;
-    opacity: 1;
-    visibility: visible;
-    transition: max-height .35s ease-out,
-                opacity 0.1s ease-in 0.2s;
-  }
-
-  /* menu text stying */
-  .menu a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    /* padding: inherit; */
-    width: 100%; /* Make the link fill the entire available width */
-    height: 100%; /* Make the link fill the entire available height */
-  }
-
-  #main-logo div {
-    padding:0.3rem;
-  }
-
-  /* work page */
-.folio-item {
-    height: auto;
-    max-height: 300px;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #e4e6de;
+  color: #363a40;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100%;
+  display: flex;
+}
+.container > .left {
+  width: 30%;
+  max-width: 300px;
+  overflow: auto;
+  height: 50rem;
+  flex-grow: 1;
+  padding: 1em 0 0 1em;
+}
+.container > .right {
+  /* background-color: #fff; */
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  /* overflow: auto; */
+  flex-grow: 50;
 }
 
-  .folio-item a {
-    /* border-bottom: 8px solid #e8e2d0; */
-    display: flex;
-    justify-content:space-between;
-    font-size: clamp(min(1vw, 1rem), 250px, max(4vw, 4rem));
-    position: relative;
-    text-decoration: none;
-    color: #363A40;
+.right .title {
+  display: none;
+}
 
-  }
+.right p {
+  font-weight: 300;
+}
 
-  .folio-item a:hover {
-    background-color: #fff;
-    transition: background-color 1s linear;
-    -moz-transition: background-color 1s linear;
-    -webkit-transition: background-color 1s linear;
-    -ms-transition: background-color 1s linear;
-  }
+.folio-item,
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  /* outline: solid pink; */
+}
 
-  .folio-item div {
-    max-height: 280px;
-    /* background-color: red; */
-    padding-left: 1rem;
-  }
+.folio-item > a > div:first-child {
+  flex-shrink: 1;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
 
-  .folio-item div img {
-    max-height: 280px;
-  }
+.folio-item > div:last-child {
+  flex-shrink: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  /* background-color: #fff; */
+}
+
+.about h1,
+.about p {
+  padding-left: 1rem;
+  max-width: 600px;
+}
+
+a {
+  color: black;
+  text-decoration-color: orange;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-style: wavy;
+}
+
+#contact {
+  padding-bottom: 2em;
+}
+
+/* menu */
+.menu input[type="radio"],
+.menu-toggle {
+  display: none;
+}
+
+.menu > li > label {
+  display: block;
+  cursor: pointer;
+  padding: 0.7em;
+}
+.menu > li > label:hover {
+  background-color: #fff;
+}
+.menu input[type="radio"]:checked {
+  max-height: 300px;
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 0.35s ease-out, opacity 0.1s ease-in 0.2s;
+}
+
+/* menu text stying */
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  /* padding: inherit; */
+  width: 100%; /* Make the link fill the entire available width */
+  height: 100%; /* Make the link fill the entire available height */
+}
+
+#main-logo div {
+  padding: 0.3rem;
+}
+
+/* work page */
+.folio-item {
+  height: auto;
+  max-height: 300px;
+}
+
+.folio-item a {
+  /* border-bottom: 8px solid #e8e2d0; */
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(min(1vw, 1rem), 250px, max(4vw, 4rem));
+  position: relative;
+  text-decoration: none;
+  color: #363a40;
+}
+
+.folio-item a:hover {
+  background-color: #fff;
+  transition: background-color 1s linear;
+  -moz-transition: background-color 1s linear;
+  -webkit-transition: background-color 1s linear;
+  -ms-transition: background-color 1s linear;
+}
+
+.folio-item div {
+  max-height: 280px;
+  /* background-color: red; */
+  padding-left: 1rem;
+}
+
+.folio-item div img {
+  max-height: 280px;
+}
 
 /* inner pages start */
 body.inner-page h1 {
@@ -187,7 +185,7 @@ body.inner-page h1 {
   display: block;
   /* border: solid orange 5px; */
   overflow: auto;
-  min-height:20px;
+  min-height: 20px;
   max-width: 1087px;
 }
 
@@ -197,7 +195,13 @@ body.inner-page h1 {
 }
 
 .caption {
-  margin-top: -.7em;
+  margin-top: -0.7em;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 /* inner pages end */
 
@@ -217,7 +221,6 @@ body.inner-page h1 {
   width: 100%;
   height: 100%;
 }
-
 
 /* .video-container {
   width: 100%;
@@ -239,47 +242,37 @@ width: 100% !important; height: auto !important;
 }
 */
 
-
-
-
-
 /* media queries */
 
 /* reduce inner page width to show menu */
-@media(max-width: 1255px) {
+@media (max-width: 1255px) {
   .inner-page main {
     /* max-width: calc(100% - 300px); */
     max-width: 90%;
     position: relative;
     right: 0;
-    padding:  30px 0 0 0;
+    padding: 30px 0 0 0;
   }
-
-
-
-
 }
 
 /* just reducing content size to fit it nicely without removing menu */
-@media(max-width: 1100px) {
-    .folio-item a {
-      font-size: clamp(min(0.5vw, 0.5rem), 150px, max(2.5vw, 2.5rem));
-      position: relative;
-      text-decoration: none;
-      color: #363A40;
-      padding-left: 1rem;
-    }
-/* remove excess padding */
-    .folio-item div {
-      padding-left: 0;
-      overflow: hidden;
-    }
-
+@media (max-width: 1100px) {
+  .folio-item a {
+    font-size: clamp(min(0.5vw, 0.5rem), 150px, max(2.5vw, 2.5rem));
+    position: relative;
+    text-decoration: none;
+    color: #363a40;
+    padding-left: 1rem;
+  }
+  /* remove excess padding */
+  .folio-item div {
+    padding-left: 0;
+    overflow: hidden;
+  }
 }
 
-
 /* remeber to match value in js */
-@media(max-width: 880px) {
+@media (max-width: 880px) {
   .container {
     overflow: hidden;
     transform: translateX(-300px);
@@ -336,12 +329,11 @@ width: 100% !important; height: auto !important;
     margin-top: 8px;
     font-size: 2rem;
   }
-
 }
 
-  /* image colour shift effect */
+/* image colour shift effect */
 
-  /* .hallucination-effect {
+/* .hallucination-effect {
     $url : url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Point_Reyes_Lighthouse_%28April_2012%29.jpg/593px-Point_Reyes_Lighthouse_%28April_2012%29.jpg);
     $offset : 5px;
   
@@ -392,4 +384,4 @@ width: 100% !important; height: auto !important;
     opacity: 0 !important;
   } */
 
-  /* image colour shift effect end */
+/* image colour shift effect end */
