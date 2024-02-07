@@ -1,0 +1,177 @@
+/* :root {
+  --aside-width: 30%;
+} */
+
+.main__layout {
+  display: flex;
+  width: 98vw;
+}
+
+.main__aside {
+  /* width: 300px; */
+  width: 30%;
+  max-width: 300px;
+  overflow: auto;
+  height: auto;
+  padding: 0;
+  transition: width 0.5s;
+}
+
+/* effectively remove <Outlet /> div from layout */
+.main__layout .main__content > div {
+  display: contents;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  flex-grow: 1;
+  padding: 0 0 2rem 0.5rem;
+  background-color: var(--main-background-color);
+  transform: translateX(0);
+  transition: transform 0.5s;
+  width: 98%;
+}
+
+.main__title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* add specivity here to stop it being overridden by the earlier remove <Outlet /> css */
+.main__layout .main__content > .inner-page {
+  display: block;
+  text-align: left;
+  visibility: visible;
+  width: auto;
+  margin-right: 2rem;
+}
+
+.inner-page {
+  width: 95vw;
+}
+
+.inner-page__title {
+  font-size: clamp(1rem, 3rem, 4rem);
+}
+
+.inner-page__content {
+  padding: 0;
+  width: 90vw;
+  max-width: 1087px;
+  overflow: auto;
+  min-height: 20px;
+}
+
+.inner-page main img,
+.inner-page__image {
+  width: 100%;
+  max-width: 1087px;
+}
+
+.inner-page__image--small {
+  max-width: 50%;
+}
+
+.inner-page__collection {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+}
+
+.inner-page__collection-group {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+}
+
+.inner-page__collection-8-image {
+  flex: 0 0 12.5%;
+  padding: 10px;
+  object-fit: contain;
+}
+.inner-page__collection-image {
+  padding: 10px 5px;
+  object-fit: cover;
+}
+.inner-page__collection-image--first {
+  padding: 10px 5px 10px 10px;
+  object-fit: cover;
+}
+.inner-page__collection-image--last {
+  padding: 10px 10px 10px 5px;
+  object-fit: cover;
+}
+
+.inner-page__caption {
+  margin-top: -0.7em;
+}
+
+.inner-page__centered {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: black;
+  text-decoration-color: orange;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-style: wavy;
+}
+
+.inner-page__link {
+  padding-left: 10px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media__link {
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* not my style name, React Social Media Embed  */
+.rsme-embed {
+  padding: 10px;
+}
+/* YouTube - React Social Media Embed  */
+.rsme-youtube-embed {
+  width: 100%;
+}
+
+/* .Page--inner h1 {
+  font-size: clamp(1rem, 4rem);
+}
+
+.Page--inner__content {
+  padding: 0 2em 2em;
+  width: 90vw;
+  max-width: 1087px;
+  overflow: auto;
+  min-height: 20px;
+}
+
+.Page--inner__image {
+  width: 100%;
+  max-width: 1087px;
+}
+
+.Page--inner__caption {
+  margin-top: -0.7em;
+}
+
+.Page--inner__center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+} */

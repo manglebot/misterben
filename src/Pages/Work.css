@@ -1,0 +1,32 @@
+/* .work {
+
+} */
+
+.work__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.work__item-link {
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(1rem, 4rem);
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.work__item-link:hover {
+  background-color: #fff;
+  transition: background-color 1s linear;
+}
+
+.Work__item-image {
+  max-height: 280px;
+}
+
+.Work__item-image img {
+  max-height: 280px;
+}

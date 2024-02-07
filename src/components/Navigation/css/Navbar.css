@@ -1,0 +1,93 @@
+.nav {
+  max-width: 300px;
+
+  flex-grow: 1;
+  padding: 1em 0 0 1em;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* .nav__item {
+ 
+} */
+
+.nav_label {
+  display: block;
+  cursor: pointer;
+  padding: 0.7em;
+}
+
+.nav_label:hover {
+  background-color: #fff;
+  color: var(--main-text-color);
+}
+
+.nav__link {
+  display: block;
+  padding: 0.7em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link--active:hover {
+  background-color: #fff;
+  color: var(--main-text-color);
+}
+
+.nav__link--active {
+  display: block;
+  padding: 0.7em;
+  color: inherit;
+  text-decoration: none;
+  background-color: #fff;
+  color: var(--main-text-color);
+}
+
+.logo {
+  padding: 0.3rem;
+}
+
+/* hamburger? */
+/* .nav input[type="radio"],
+.nav-toggle {
+  display: none;
+} */
+
+/* old below */
+/* menu */
+/* .menu input[type="radio"],
+.menu-toggle {
+  display: none;
+}
+
+.menu > li > label {
+  display: block;
+  cursor: pointer;
+  padding: 0.7em;
+}
+.menu > li > label:hover {
+  background-color: #fff;
+}
+.menu input[type="radio"]:checked {
+  max-height: 300px;
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 0.35s ease-out, opacity 0.1s ease-in 0.2s;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+} */

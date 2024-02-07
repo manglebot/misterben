@@ -1,0 +1,43 @@
+/* min-width to fix flex issues */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+:root {
+  --main-text-color: #363a40;
+  --background-color: #e4e6de;
+  --accent-color: orange;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-family: "Quicksand", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.page {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+}
+
+.page__content {
+  display: flex;
+  min-height: 100%;
+}
+
+/* Misc.css */
+
+.Misc__spacer {
+  margin-top: -0.7em;
+}
+
+.Misc__center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
