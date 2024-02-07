@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import "./css/MainLayout.css";
 import HamburgerMenu from "./HamburgerMenu";
 import "./css/HamburgerMenu.css";
-import MenuProvider, { useMenuContext } from "../Navigation/MenuContext";
+import { useMenuContext } from "../Navigation/MenuContext";
 
 function MainLayout() {
   const {
