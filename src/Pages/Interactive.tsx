@@ -34,19 +34,31 @@ const Interactive = () => {
       </div>
 
       <p>
-        <img src="/images/tate_bacon1.jpg" alt="Francis Bacon interactive" />
+        <img
+          src="/src/assets/images/tate_bacon1.jpg"
+          alt="Francis Bacon interactive"
+        />
       </p>
 
       <p>
-        <img src="/images/tate_bacon2.jpg" alt="Francis Bacon interactive" />
+        <img
+          src="/src/assets/images/tate_bacon2.jpg"
+          alt="Francis Bacon interactive"
+        />
       </p>
 
       <p>
-        <img src="/images/tate_bacon4.jpg" alt="Francis Bacon interactive" />
+        <img
+          src="/src/assets/images/tate_bacon4.jpg"
+          alt="Francis Bacon interactive"
+        />
       </p>
 
       <p>
-        <img src="/images/tate_bacon5.jpg" alt="Francis Bacon interactive" />
+        <img
+          src="/src/assets/images/tate_bacon5.jpg"
+          alt="Francis Bacon interactive"
+        />
       </p>
 
       <p>

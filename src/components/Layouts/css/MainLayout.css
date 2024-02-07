@@ -73,6 +73,8 @@
 
 .inner-page__image--small {
   max-width: 50%;
+  margin: auto;
+  display: flex;
 }
 
 .inner-page__collection {

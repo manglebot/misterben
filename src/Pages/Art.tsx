@@ -20,7 +20,7 @@ const Art = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/images/art1.jpg"
+          src="/src/assets/images/art1.jpg"
           alt="Jackson Pollock inspired painting - acoustic panel"
         />
       </p>
@@ -28,7 +28,7 @@ const Art = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/images/art2.jpg"
+          src="/src/assets/images/art2.jpg"
           alt="Jackson Pollock inspired painting - acoustic panel"
         />
       </p>

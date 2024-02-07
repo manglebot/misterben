@@ -40,7 +40,10 @@ const Print = () => {
       </p>
 
       <p>
-        <img src="/images/quba_50for50.png" alt="Quba - Fifty for 50" />
+        <img
+          src="/src/assets/images/quba_50for50.png"
+          alt="Quba - Fifty for 50"
+        />
       </p>
 
       <p>
@@ -50,7 +53,7 @@ const Print = () => {
 
       <p>
         <img
-          src="/images/quba_50for50-screenshot.png"
+          src="/src/assets/images/quba_50for50-screenshot.png"
           alt="Quba - Fifty for 50 - ends tonight"
         />
       </p>
@@ -58,7 +61,10 @@ const Print = () => {
       <p>This inspired other email campaigns including a knitting one.</p>
 
       <p>
-        <img src="/images/quba_knitwear.png" alt="Quba - knitwear promo" />
+        <img
+          src="/src/assets/images/quba_knitwear.png"
+          alt="Quba - knitwear promo"
+        />
       </p>
 
       <p>
@@ -71,14 +77,17 @@ const Print = () => {
       </p>
 
       <p>
-        <img src="/images/quba_50off-hoodies.png" alt="Quba - 50 of hoodies" />
+        <img
+          src="/src/assets/images/quba_50off-hoodies.png"
+          alt="Quba - 50 of hoodies"
+        />
       </p>
 
       <p>Website banner from the same campaign</p>
 
       <p>
         <img
-          src="/images/quba_website_banner_anim.gif"
+          src="/src/assets/images/quba_website_banner_anim.gif"
           alt="Quba - 50 of hoodies web banner"
         />
       </p>
@@ -87,7 +96,7 @@ const Print = () => {
 
       <p>
         <img
-          src="/images/quba_50-off-hoodies-home-screenshot.jpg"
+          src="/src/assets/images/quba_50-off-hoodies-home-screenshot.jpg"
           alt="Quba - 50 of hoodies web banner - different version"
         />
       </p>
@@ -100,7 +109,7 @@ const Print = () => {
 
       <p>
         <img
-          src="/images/quba_egg_animation_email.gif"
+          src="/src/assets/images/quba_egg_animation_email.gif"
           alt="Quba - easter promo"
         />
       </p>

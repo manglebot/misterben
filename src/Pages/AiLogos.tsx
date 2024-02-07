@@ -33,16 +33,16 @@ const AiLogos = () => {
       </div>
 
       <p>
-        <img src="/images/ai-logo4.jpg" />
+        <img src="/src/assets/images/ai-logo4.jpg" />
       </p>
       <p>
-        <img src="/images/ai-logo1.jpg" />
+        <img src="/src/assets/images/ai-logo1.jpg" />
       </p>
       <p>
-        <img src="/images/ai-logo2.jpg" />
+        <img src="/src/assets/images/ai-logo2.jpg" />
       </p>
       <p>
-        <img src="/images/ai-logo3.jpg" />
+        <img src="/src/assets/images/ai-logo3.jpg" />
       </p>
     </div>
   );

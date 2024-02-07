@@ -32,7 +32,7 @@ const Photography = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/images/p_photography.jpg"
+          src="/src/assets/images/p_photography.jpg"
           alt="festival photography"
         />
       </p>
@@ -40,7 +40,7 @@ const Photography = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/images/p_music.jpg"
+          src="/src/assets/images/p_music.jpg"
           alt="Photo of a close up of one of my synths"
         />
       </p>

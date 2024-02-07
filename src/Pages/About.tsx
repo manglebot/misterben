@@ -6,19 +6,21 @@ const Home: React.FC = () => {
       <h1 className="home_title">ABOUT</h1>
       <h2 className="home_subtitle">Who am I?</h2>
 
-      <p>
-        I'm a Web Developer, Graphic Designer, Artist, and Electronic Musician
-        based in Manchester, UK. My personal website serves as a platform to
-        showcase my diverse skill set, highlight my professional work, and share
-        my own creative projects.
-      </p>
+      <div className="inner-page__content">
+        <p>
+          I'm a Web Developer, Graphic Designer, Artist, and Electronic Musician
+          based in Manchester, UK. My personal website serves as a platform to
+          showcase my diverse skill set, highlight my professional work, and
+          share my own creative projects.
+        </p>
 
-      <p>I love spending time with my family.</p>
-      <p>
-        I have an obsession with music, including a DIY eurorack modular setup,
-        which I occasionally play gigs with. I realeased my 4th album in
-        September 2023.
-      </p>
+        <p>I love spending time with my family.</p>
+        <p>
+          I have an obsession with music, including a DIY eurorack modular
+          setup, which I occasionally play gigs with. I realeased my 4th album
+          in September 2023.
+        </p>
+      </div>
 
       <div className="social-media">
         <a
