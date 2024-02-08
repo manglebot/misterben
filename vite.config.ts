@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/misterben/",
   plugins: [react()],
   build: {
-    sourcemap: false,
+    sourcemap: true,
   },
 });
