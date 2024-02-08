@@ -31,45 +31,49 @@ const Interactive = () => {
           contributions at Tate. Regrettably, with the decline of Flash, its
           continued existence is no longer possible.
         </p>
+
+        <p>
+          <img
+            className="inner-page__image"
+            src="/misterben/src/assets/images/tate_bacon1.jpg"
+            alt="Francis Bacon interactive"
+          />
+        </p>
+
+        <p>
+          <img
+            className="inner-page__image"
+            src="/misterben/src/assets/images/tate_bacon2.jpg"
+            alt="Francis Bacon interactive"
+          />
+        </p>
+
+        <p>
+          <img
+            className="inner-page__image"
+            src="/misterben/src/assets/images/tate_bacon4.jpg"
+            alt="Francis Bacon interactive"
+          />
+        </p>
+
+        <p>
+          <img
+            className="inner-page__image"
+            src="/misterben/src/assets/images/tate_bacon5.jpg"
+            alt="Francis Bacon interactive"
+          />
+        </p>
+
+        <p>
+          You can read a fascinating review here{" "}
+          <a
+            href="https://archimedori-hypotheses-org.translate.goog/102?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp"
+            target="_blank"
+          >
+            archimedori-hypotheses-org
+          </a>
+        </p>
       </div>
-
-      <p>
-        <img
-          src="/src/assets/images/tate_bacon1.jpg"
-          alt="Francis Bacon interactive"
-        />
-      </p>
-
-      <p>
-        <img
-          src="/src/assets/images/tate_bacon2.jpg"
-          alt="Francis Bacon interactive"
-        />
-      </p>
-
-      <p>
-        <img
-          src="/src/assets/images/tate_bacon4.jpg"
-          alt="Francis Bacon interactive"
-        />
-      </p>
-
-      <p>
-        <img
-          src="/src/assets/images/tate_bacon5.jpg"
-          alt="Francis Bacon interactive"
-        />
-      </p>
-
-      <p>
-        You can read a fascinating review here{" "}
-        <a
-          href="https://archimedori-hypotheses-org.translate.goog/102?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp"
-          target="_blank"
-        >
-          archimedori-hypotheses-org
-        </a>
-      </p>
     </div>
   );
 };
