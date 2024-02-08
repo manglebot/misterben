@@ -118,11 +118,9 @@ const Developer = () => {
           this, but after doing research managed to create a site for the client
           on a very limited budget, which was both aesthetically pleasing, but
           financially viable. You can read more about it{" "}
-          <ScrollToTopOnMount>
-            <NavLink to="/pages/website">here on my web design page</NavLink>
-          </ScrollToTopOnMount>
-          . I'm not a PHP programmer, but have tweaked pages and pushed code
-          around to do things I wanted.
+          <NavLink to="/pages/website">here on my web design page</NavLink>. I'm
+          not a PHP programmer, but have tweaked pages and pushed code around to
+          do things I wanted.
         </p>
 
         <div className="inner-page__collection">
