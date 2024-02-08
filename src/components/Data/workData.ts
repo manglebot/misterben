@@ -38,14 +38,14 @@ const workData = [
     title: "Print Design",
     imgSrc: "assets/images/w_metwork.jpg",
     imgAlt: "Print Design",
-    to: "pages/print",
+    to: "/pages/print",
     element: Print,
   },
   {
     title: "Interactive Design",
     imgSrc: "assets/images/w_tate.jpg",
     imgAlt: "Interactive Design",
-    to: "pages/interactive",
+    to: "/pages/interactive",
     element: Interactive,
   },
 ];

@@ -4,7 +4,7 @@ import ScrollToTopOnMount from "../components/Layouts/ScrollToTopOnMount";
 
 const Developer = () => {
   return (
-    <div>
+    <div className="inner-page">
       <h1 className="inner-page__title">WEB DEVELOPER</h1>
       <h2>I started building websites in 1997.</h2>
 
