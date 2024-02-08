@@ -10,14 +10,14 @@ const workData = [
     title: "Web Development",
     imgSrc: "assets/images/me_coder.jpg",
     imgAlt: "Web Developer",
-    href: "pages/developer",
+    href: "developer",
     element: Developer,
   },
   {
     title: "Creative Design",
     imgSrc: "assets/images/w_benandi.jpg",
     imgAlt: "Creative Design",
-    href: "pages/creative",
+    href: "/creative",
     element: Creative,
   },
   {

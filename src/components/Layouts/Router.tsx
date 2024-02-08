@@ -24,7 +24,7 @@ const Router: React.FC = () => {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
 
-          <Route path="/pages/developer" element={<Developer />} />
+          <Route path="developer" element={<Developer />} />
 
           {workData.map((item, index) => (
             <Route key={index} path={item.href} element={<item.element />} />
