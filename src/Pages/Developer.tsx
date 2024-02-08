@@ -28,42 +28,42 @@ const Developer = () => {
         <div className="inner-page__collection inner-page__collection-group">
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_topman.png"
+            src="/misterben/assets/images/logo_topman.png"
             alt="TopMan logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_topshop.png"
+            src="/misterben/assets/images/logo_topshop.png"
             alt="TopShop logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_Ministry-of-Sound.png"
+            src="/misterben/assets/images/logo_Ministry-of-Sound.png"
             alt="Ministry of Sound logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_Mercedes.png"
+            src="/misterben/assets/images/logo_Mercedes.png"
             alt="Mercedes logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_mazda.png"
+            src="/misterben/assets/images/logo_mazda.png"
             alt="Mazda logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_jewson.png"
+            src="/misterben/assets/images/logo_jewson.png"
             alt="Jewsons logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_The_Link.png"
+            src="/misterben/assets/images/logo_The_Link.png"
             alt="The Link logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="/misterben/src/assets/images/logo_currys.png"
+            src="/misterben/assets/images/logo_currys.png"
             alt="Currys logo"
           />
         </div>
@@ -81,22 +81,22 @@ const Developer = () => {
         <div className="inner-page__collection">
           <img
             className="inner-page__collection-image--first"
-            src="/misterben/src/assets/images/tate_bacon1.jpg"
+            src="/misterben/assets/images/tate_bacon1.jpg"
             alt="Tate Gallery - Francis Bacon Interactive"
           />
           <img
             className="inner-page__collection-image"
-            src="/misterben/src/assets/images/tate_bacon2.jpg"
+            src="/misterben/assets/images/tate_bacon2.jpg"
             alt="Tate Gallery - Francis Bacon Interactive"
           />
           <img
             className="inner-page__collection-image"
-            src="/misterben/src/assets/images/tate_bacon4.jpg"
+            src="/misterben/assets/images/tate_bacon4.jpg"
             alt="Tate Gallery - Francis Bacon Interactive"
           />
           <img
             className="inner-page__collection-image--last"
-            src="/misterben/src/assets/images/tate_bacon5.jpg"
+            src="/misterben/assets/images/tate_bacon5.jpg"
             alt="Tate Gallery - Francis Bacon Interactive"
           />
         </div>
@@ -128,12 +128,12 @@ const Developer = () => {
         <div className="inner-page__collection">
           <img
             className="inner-page__collection-image--first"
-            src="/misterben/src/assets/images/bspoke_2022.jpg"
+            src="/misterben/assets/images/bspoke_2022.jpg"
             alt="B'spoke Coffee Website 2022"
           />
           <img
             className="inner-page__collection-image--last"
-            src="/misterben/src/assets/images/bspoke_screenshots.jpg"
+            src="/misterben/assets/images/bspoke_screenshots.jpg"
             alt="B'spoke Coffee Website 2022"
           />
         </div>
@@ -153,7 +153,7 @@ const Developer = () => {
 
         <img
           className="inner-page__image--small"
-          src="/misterben/src/assets/images/tech-returners-certificate.jpg"
+          src="/misterben/assets/images/tech-returners-certificate.jpg"
           alt="Tech Returners Certificate"
         />
 

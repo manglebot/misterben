@@ -34,7 +34,7 @@ const Website = () => {
         <p className="caption">
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_screenshots.jpg"
+            src="/misterben/assets/images/bspoke_screenshots.jpg"
             alt="Screenshots of B'spoke's original website"
           />
         </p>
@@ -58,7 +58,7 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_concept_2019+drawing.jpg"
+            src="/misterben/assets/images/bspoke_concept_2019+drawing.jpg"
             alt="B'spokes xmas concepts"
             // className="caption"
           />
@@ -70,7 +70,7 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_xmas.jpg"
+            src="/misterben/assets/images/bspoke_xmas.jpg"
             alt="B'spoke Christmas website screenshot"
             // className="caption"
           />
@@ -106,13 +106,13 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/rune_concepts.png"
+            src="/misterben/assets/images/rune_concepts.png"
             alt="Rune Creative's B'spoke Coffee website concept"
             // className="caption"
           />
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/rune_header_idea.png"
+            src="/misterben/assets/images/rune_header_idea.png"
             alt="Rune Creative's header idea"
             // className="caption"
           />
@@ -121,7 +121,7 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_layout_ideas.jpg"
+            src="/misterben/assets/images/bspoke_layout_ideas.jpg"
             alt="My initial mockups for B'spoke Coffee"
             // className="caption"
           />
@@ -130,7 +130,7 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_header.png"
+            src="/misterben/assets/images/bspoke_header.png"
             alt="dripping header graphic"
             // className="caption"
           />
@@ -142,7 +142,7 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_homepage.jpg"
+            src="/misterben/assets/images/bspoke_homepage.jpg"
             alt="bspoke website homepage"
             // className="caption"
           />
@@ -154,7 +154,7 @@ const Website = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/src/assets/images/bspoke_footer.jpg"
+            src="/misterben/assets/images/bspoke_footer.jpg"
             alt="bspoke website footer"
             // className="caption"
           />

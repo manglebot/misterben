@@ -58,7 +58,7 @@ const Creative = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/misterben/src/assets/images/misterben_benandi_front.jpg"
+          src="assets/images/misterben_benandi_front.jpg"
           alt="Misterben benandi album design"
         />
       </p>
@@ -66,7 +66,7 @@ const Creative = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/misterben/src/assets/images/misterben_benandi_inner.jpg"
+          src="assets/images/misterben_benandi_inner.jpg"
           alt="Misterben benandi album design"
         />
       </p>
@@ -76,7 +76,7 @@ const Creative = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/misterben/src/assets/images/misterben_benandi_closeup.jpg"
+          src="/misterben/assets/images/misterben_benandi_closeup.jpg"
           alt="Misterben benandi album design"
         />
       </p>
@@ -86,7 +86,7 @@ const Creative = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/misterben/src/assets/images/misterben_benandi_closeup-inner.jpg"
+          src="/misterben/assets/images/misterben_benandi_closeup-inner.jpg"
           alt="Misterben benandi album design"
         />
       </p>
@@ -96,7 +96,7 @@ const Creative = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/misterben/src/assets/images/misterben_benandi2.jpg"
+          src="/misterben/assets/images/misterben_benandi2.jpg"
           alt="Misterben benandi album design"
         />
       </p>
@@ -104,7 +104,7 @@ const Creative = () => {
       <p>
         <img
           className="inner-page__image"
-          src="/misterben/src/assets/images/misterben_album_idea.jpg"
+          src="/misterben/assets/images/misterben_album_idea.jpg"
           alt="Misterben benandi album design"
         />
       </p>
