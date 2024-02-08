@@ -1,21 +1,22 @@
+import { NavLink } from "react-router-dom";
 import "./css/PortfolioItem.css";
 
 interface FolioItemProps {
   title: string;
   imgSrc: string;
   imgAlt: string;
-  href: string;
+  to: string;
 }
 
-const FolioItem = ({ title, imgSrc, imgAlt, href }: FolioItemProps) => {
+const FolioItem = ({ title, imgSrc, imgAlt, to }: FolioItemProps) => {
   return (
     <div className="portfolio__item">
-      <a href={href} className="portfolio__link">
+      <NavLink to={to} className="portfolio__link">
         <div className="portfolio__title">{title}</div>
         <div className="portfolio__img-container">
           <img className="portfolio__img" src={imgSrc} alt={imgAlt} />
         </div>
-      </a>
+      </NavLink>
     </div>
   );
 };
