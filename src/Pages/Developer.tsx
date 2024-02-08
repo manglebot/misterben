@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-import ScrollToTopOnMount from "../components/Layouts/ScrollToTopOnMount";
-// import { YouTubeEmbed } from "react-social-media-embed";
 
 const Developer = () => {
   return (

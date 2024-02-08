@@ -11,7 +11,6 @@ import Contact from "../../Pages/Contact";
 import workData from "../Data/workData";
 import playData from "../Data/playData";
 import MenuProvider from "../Navigation/MenuContext";
-import Developer from "../../Pages/Developer";
 
 const Router: React.FC = () => {
   return (
