@@ -11,6 +11,7 @@ import Contact from "../../Pages/Contact";
 import workData from "../Data/workData";
 import playData from "../Data/playData";
 import MenuProvider from "../Navigation/MenuContext";
+import Developer from "../../Pages/Developer";
 
 const Router: React.FC = () => {
   return (
@@ -22,6 +23,8 @@ const Router: React.FC = () => {
           <Route path="play" element={<Play />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+
+          <Route path="/pages/developer" element={<Developer />} />
 
           {workData.map((item, index) => (
             <Route key={index} path={item.href} element={<item.element />} />
