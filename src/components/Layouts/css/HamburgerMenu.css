@@ -113,8 +113,7 @@
   }
 
   .main__title {
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
     transition: visibility var(--animation-timing),
       opacity var(--animation-timing) linear;
   }
