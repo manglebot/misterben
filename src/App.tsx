@@ -11,7 +11,7 @@ function App() {
   return (
     <ErrorBoundary fallback={<div>Something went wrong</div>}>
       <MenuProvider>
-        <BrowserRouter basename="/misterben">
+        <BrowserRouter basename="/">
           <Router />
         </BrowserRouter>
       </MenuProvider>
