@@ -11,7 +11,7 @@ function App() {
   return (
     <ErrorBoundary fallback={<div>Something went wrong</div>}>
       <MenuProvider>
-        <HashRouter basename="/misterben">
+        <HashRouter>
           <Router />
         </HashRouter>
       </MenuProvider>

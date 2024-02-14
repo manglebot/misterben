@@ -19,27 +19,27 @@ const Home: React.FC = () => {
         </p>
         <p className="home-page__content__link">
           Here you can view examples of my{" "}
-          <NavLink onClick={closeMenu} to="#/work">
+          <NavLink onClick={closeMenu} to="/work">
             Work
           </NavLink>
         </p>
         <p className="home-page__content__link">
           I also have example of{" "}
-          <NavLink onClick={closeMenu} to="#/play">
+          <NavLink onClick={closeMenu} to="/play">
             Play
           </NavLink>{" "}
           things
         </p>
         <p className="home-page__content__link">
           You can find out more{" "}
-          <NavLink onClick={closeMenu} to="#/about">
+          <NavLink onClick={closeMenu} to="/about">
             About
           </NavLink>{" "}
           me here
         </p>
         <p className="home-page__content__link">
           Feel free to{" "}
-          <NavLink onClick={closeMenu} to="#/contact">
+          <NavLink onClick={closeMenu} to="/contact">
             Contact
           </NavLink>{" "}
           me

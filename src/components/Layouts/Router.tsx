@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import MainLayout from "./MainLayout";
 import NotFound from "../../Pages/NotFound";
@@ -14,28 +14,26 @@ import MenuProvider from "../Navigation/MenuContext";
 
 const Router: React.FC = () => {
   return (
-    <HashRouter>
-      <MenuProvider>
-        <Routes>
-          <Route path="/" element={<MainLayout />}>
-            <Route index element={<Home />} />
-            <Route path="work" element={<Work />} />
-            <Route path="play" element={<Play />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
+    <MenuProvider>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+          <Route path="work" element={<Work />} />
+          <Route path="play" element={<Play />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
 
-            {workData.map((item, index) => (
-              <Route key={index} path={item.to} element={<item.element />} />
-            ))}
-            {playData.map((item, index) => (
-              <Route key={index} path={item.to} element={<item.element />} />
-            ))}
+          {workData.map((item, index) => (
+            <Route key={index} path={item.to} element={<item.element />} />
+          ))}
+          {playData.map((item, index) => (
+            <Route key={index} path={item.to} element={<item.element />} />
+          ))}
 
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
-      </MenuProvider>
-    </HashRouter>
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </MenuProvider>
   );
 };
 
