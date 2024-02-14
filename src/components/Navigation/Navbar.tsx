@@ -7,10 +7,10 @@ const activeLink = "nav__link--active";
 const normalLink = "nav__link";
 
 const navLinks = [
-  { to: "/work", label: "Work" },
-  { to: "/play", label: "Play" },
-  { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact" },
+  { to: "#/work", label: "Work" },
+  { to: "#/play", label: "Play" },
+  { to: "#/about", label: "About" },
+  { to: "#/contact", label: "Contact" },
 ];
 
 interface NavbarProps {
@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
     <nav className="navbar">
       <NavLink
-        to="/"
+        to="#/"
         className={normalLink}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >

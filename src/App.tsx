@@ -1,6 +1,6 @@
 "use client";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import "./App.css";
 import Router from "./components/Layouts/Router";
@@ -11,9 +11,9 @@ function App() {
   return (
     <ErrorBoundary fallback={<div>Something went wrong</div>}>
       <MenuProvider>
-        <BrowserRouter basename="/misterben">
+        <HashRouter basename="/misterben">
           <Router />
-        </BrowserRouter>
+        </HashRouter>
       </MenuProvider>
     </ErrorBoundary>
   );
