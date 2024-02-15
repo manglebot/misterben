@@ -16,28 +16,16 @@ const AiArt = () => {
       </div>
 
       <p>
-        <img
-          src="/misterben/assets/images/ai-art1.jpg"
-          alt="AI created artworks"
-        />
+        <img src="/assets/images/ai-art1.jpg" alt="AI created artworks" />
       </p>
       <p>
-        <img
-          src="/misterben/assets/images/ai-art2.jpg"
-          alt="AI created artworks"
-        />
+        <img src="/assets/images/ai-art2.jpg" alt="AI created artworks" />
       </p>
       <p>
-        <img
-          src="/misterben/assets/images/ai-art4.jpg"
-          alt="AI created artworks"
-        />
+        <img src="/assets/images/ai-art4.jpg" alt="AI created artworks" />
       </p>
       <p>
-        <img
-          src="/misterben/assets/images/ai-art3.jpg"
-          alt="AI created artworks"
-        />
+        <img src="/assets/images/ai-art3.jpg" alt="AI created artworks" />
       </p>
     </div>
   );

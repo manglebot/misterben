@@ -37,22 +37,22 @@ const Print = () => {
         <div className="inner-page__collection">
           <img
             className="inner-page__collection-image--first"
-            src="/misterben/assets/images/metwork_housing.jpg"
+            src="/assets/images/metwork_housing.jpg"
             alt="Metropolitan Workshop Housing and Masterplanning brochure"
           />
           <img
             className="inner-page__collection-image"
-            src="/misterben/assets/images/metwork_highst.jpg"
+            src="/assets/images/metwork_highst.jpg"
             alt="Metropolitan Workshop brochure"
           />
           <img
             className="inner-page__collection-image"
-            src="/misterben/assets/images/metwork_mmoc.jpg"
+            src="/assets/images/metwork_mmoc.jpg"
             alt="Metropolitan Workshop brochure"
           />
           <img
             className="inner-page__collection-image--last"
-            src="/misterben/assets/images/metwork_transport.jpg"
+            src="/assets/images/metwork_transport.jpg"
             alt="Metropolitan Workshop brochure"
           />
         </div>

@@ -30,7 +30,7 @@ const Music = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/assets/images/misterben_bandcamp.jpg"
+            src="/assets/images/misterben_bandcamp.jpg"
             alt="My album covers on Bandcamp"
           />
         </p>
@@ -51,7 +51,7 @@ const Music = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/assets/images/misterben_benandi.jpg"
+            src="/assets/images/misterben_benandi.jpg"
             alt="Benandi album cover"
           />
         </p>

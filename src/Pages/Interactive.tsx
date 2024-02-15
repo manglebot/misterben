@@ -35,7 +35,7 @@ const Interactive = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/assets/images/tate_bacon1.jpg"
+            src="/assets/images/tate_bacon1.jpg"
             alt="Francis Bacon interactive"
           />
         </p>
@@ -43,7 +43,7 @@ const Interactive = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/assets/images/tate_bacon2.jpg"
+            src="/assets/images/tate_bacon2.jpg"
             alt="Francis Bacon interactive"
           />
         </p>
@@ -51,7 +51,7 @@ const Interactive = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/assets/images/tate_bacon4.jpg"
+            src="/assets/images/tate_bacon4.jpg"
             alt="Francis Bacon interactive"
           />
         </p>
@@ -59,7 +59,7 @@ const Interactive = () => {
         <p>
           <img
             className="inner-page__image"
-            src="/misterben/assets/images/tate_bacon5.jpg"
+            src="/assets/images/tate_bacon5.jpg"
             alt="Francis Bacon interactive"
           />
         </p>
