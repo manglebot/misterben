@@ -17,19 +17,28 @@ const Home: React.FC = () => {
           of creativity and technical expertise, allowing me to craft engaging
           and functional web solutions.
         </p>
-        <p className="home-page__content__link">
-          Here you can view examples of my{" "}
-          <NavLink onClick={closeMenu} to="/work">
+        <div className="home-page__collection">
+          <p className="home-page__content__link">
             Work
-          </NavLink>
-        </p>
-        <p className="home-page__content__link">
-          I also have example of{" "}
-          <NavLink onClick={closeMenu} to="/play">
+            <NavLink onClick={closeMenu} to="/work">
+              <img
+                className="home-page__image"
+                src="/assets/images/work_thumbs.jpg"
+                alt="Work thumbnails"
+              />
+            </NavLink>
+          </p>
+          <p className="home-page__content__link">
             Play
-          </NavLink>{" "}
-          things
-        </p>
+            <NavLink onClick={closeMenu} to="/play">
+              <img
+                className="home-page__image"
+                src="/assets/images/play_thumbs.jpg"
+                alt="Play thumbnails"
+              />
+            </NavLink>
+          </p>
+        </div>
         <p className="home-page__content__link">
           You can find out more{" "}
           <NavLink onClick={closeMenu} to="/about">
