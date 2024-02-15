@@ -26,27 +26,27 @@ const Developer = () => {
         <div className="inner-page__collection inner-page__collection-group">
           <img
             className="inner-page__collection-8-image"
-            src="#/misterben/assets/images/logo_topman.png"
+            src="/assets/images/logo_topman.png"
             alt="TopMan logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="#/misterben/assets/images/logo_topshop.png"
+            src="/assets/images/logo_topshop.png"
             alt="TopShop logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="#/misterben/assets/images/logo_Ministry-of-Sound.png"
+            src="/assets/images/logo_Ministry-of-Sound.png"
             alt="Ministry of Sound logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="#/misterben/assets/images/logo_Mercedes.png"
+            src="/assets/images/logo_Mercedes.png"
             alt="Mercedes logo"
           />
           <img
             className="inner-page__collection-8-image"
-            src="#/misterben/assets/images/logo_mazda.png"
+            src="/assets/images/logo_mazda.png"
             alt="Mazda logo"
           />
           <img
