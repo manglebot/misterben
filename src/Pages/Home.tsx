@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             Work
             <NavLink onClick={closeMenu} to="/work">
               <img
-                className="home-page__image"
+                className="home-page__image-1"
                 src="/assets/images/work_thumbs.jpg"
                 alt="Work thumbnails"
               />
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             Play
             <NavLink onClick={closeMenu} to="/play">
               <img
-                className="home-page__image"
+                className="home-page__image-2"
                 src="/assets/images/play_thumbs.jpg"
                 alt="Play thumbnails"
               />

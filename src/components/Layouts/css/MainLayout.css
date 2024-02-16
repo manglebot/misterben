@@ -80,27 +80,22 @@
 }
 
 .inner-page main img,
-.inner-page__image,
-.home-page__image {
+.inner-page__image {
   width: 100%;
   max-width: 1087px;
   padding: 10px;
 }
 
-.home-page__image:first-child {
-  padding-right: 0;
+.home-page__image-1 {
+  width: 100%;
+  max-width: 1087px;
+  padding: 10px 0 10px 10px;
 }
 
-.home-page__image:last-child {
-  padding-left: 0;
-}
-
-.home-page__collection > .home-page__image:first-child {
-  padding-right: 0;
-}
-
-.home-page__collection > .home-page__image:last-child {
-  padding-left: 0;
+.home-page__image-2 {
+  width: 100%;
+  max-width: 1087px;
+  padding: 10px 10px 10px 0;
 }
 
 .inner-page__image--small {
