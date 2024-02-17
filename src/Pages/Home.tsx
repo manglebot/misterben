@@ -18,8 +18,8 @@ const Home: React.FC = () => {
           and functional web solutions.
         </p>
         <div className="home-page__collection">
-          <p className="home-page__content__link">
-            Work
+          <p className="home-page__content__link-1">
+            <h2>Work</h2>
             <NavLink onClick={closeMenu} to="/work">
               <img
                 className="home-page__image-1"
@@ -28,8 +28,8 @@ const Home: React.FC = () => {
               />
             </NavLink>
           </p>
-          <p className="home-page__content__link">
-            Play
+          <p className="home-page__content__link-2">
+            <h2>Play</h2>
             <NavLink onClick={closeMenu} to="/play">
               <img
                 className="home-page__image-2"
