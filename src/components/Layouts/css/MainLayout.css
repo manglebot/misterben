@@ -58,12 +58,12 @@
 }
 
 .home-page__content__link-1 {
-  border: solid #fff;
-  border-width: 0 1rem 2rem 2rem;
+  /* padding: solid #fff; */
+  padding: 0 1rem 2rem 2rem;
 }
 .home-page__content__link-2 {
-  border: solid #fff;
-  border-width: 0 2rem 2rem 1rem;
+  /* border: solid #fff; */
+  padding: 0 2rem 2rem 1rem;
 }
 
 .home-page__content {
@@ -75,6 +75,7 @@
   min-height: 20px;
 }
 
+/* hide overflow from css zoom */
 .home-page__content__link {
   font-size: 1.4rem;
   overflow: hidden;
@@ -131,7 +132,7 @@
 .home-page__collection {
   width: 100%;
   display: flex;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .inner-page__collection-8-image {
@@ -167,6 +168,7 @@ a {
   text-decoration-color: orange;
   text-decoration-style: solid;
   text-underline-offset: 3px;
+  transition: text-decoration-style 0.5s;
 }
 
 a:hover {

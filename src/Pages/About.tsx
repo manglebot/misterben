@@ -1,6 +1,6 @@
 import { InstagramEmbed } from "react-social-media-embed";
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
   return (
     <div>
       <h1 className="home_title">ABOUT</h1>
@@ -41,16 +41,10 @@ const Home: React.FC = () => {
           LinkedIn
         </a>
 
-        <InstagramEmbed
-          url="https://www.instagram.com/misterben/"
-          // width={400} // Set the width of the embed
-          // height={400} // Set the height of the embed
-        />
-
-        {/* Add more social media links as needed */}
+        <InstagramEmbed url="https://www.instagram.com/misterben/" />
       </div>
     </div>
   );
 };
 
-export default Home;
+export default About;
