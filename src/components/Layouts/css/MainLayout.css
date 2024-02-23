@@ -75,6 +75,18 @@
   min-height: 20px;
 }
 
+.home-page__about-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+.home-page__about-text-paragraph {
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+}
+
 /* hide overflow from css zoom */
 .home-page__content__link {
   font-size: 1.4rem;

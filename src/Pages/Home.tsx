@@ -9,7 +9,6 @@ const Home: React.FC = () => {
       <div className="main__title">BEN BAYLISS</div>
 
       <div className="home-page__content">
-        <h2>Hello</h2>
         <p></p>
         <div className="home-page__collection">
           <p className="home-page__content__link-1">
@@ -34,20 +33,23 @@ const Home: React.FC = () => {
           </p>
         </div>
 
-        <p>
-          I'm Ben, a Manchester-based professional with over 15 years of
-          experience in website development and graphic design. My expertise
-          lies in crafting engaging and functional web solutions, showcasing a
-          unique blend of creativity and technical prowess.
-        </p>
+        <h2>Hello</h2>
+        <div className="home-page__about-text">
+          <p className="home-page__about-text-paragraph">
+            I'm Ben, a Manchester-based professional with over 15 years of
+            experience in website development and graphic design. My expertise
+            lies in crafting engaging and functional web solutions, showcasing a
+            unique blend of creativity and technical prowess.
+          </p>
 
-        <p>
-          Outside work, I have a passion for music and art. I'm an avid
-          electronic musician, occasionally playing gigs with my DIY eurorack
-          modular setup. September 2023 marked the release of my fourth album, a
-          deeply personal album pushing my creative and technical boundaries.
-        </p>
-        {/* about here */}
+          <p className="home-page__about-text-paragraph">
+            Outside work, I have a passion for music and art. I'm an avid
+            electronic musician, occasionally playing gigs with my DIY eurorack
+            modular setup. September 2023 marked the release of my fourth album,
+            a deeply personal album pushing my creative and technical
+            boundaries.
+          </p>
+        </div>
         <div className="social-media">
           <a
             className="social-media__link"
@@ -55,7 +57,7 @@ const Home: React.FC = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="200"
+              width="400"
               height="200"
               fill="currentColor"
               className="bi bi-linkedin"
