@@ -11,7 +11,7 @@ const Work: React.FC = () => {
 
   return (
     <div>
-      <h1 className="main_title">WORK</h1>
+      <h1 className="main__title">WORK</h1>
       {portfolioItems}
     </div>
   );
