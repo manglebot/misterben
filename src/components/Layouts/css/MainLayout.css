@@ -150,7 +150,10 @@
 .home-page__collection {
   width: 100%;
   display: flex;
-  /* background-color: #fff; */
+}
+
+.inner-page__collection {
+  background-color: #fff;
 }
 
 .inner-page__collection-8-image {
