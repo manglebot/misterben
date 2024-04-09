@@ -47,7 +47,11 @@ const Home: React.FC = () => {
             electronic musician, occasionally playing gigs with my DIY eurorack
             modular setup. September 2023 marked the release of my fourth album,
             a deeply personal album pushing my creative and technical
-            boundaries.
+            boundaries. You can read about this on my{" "}
+            <NavLink onClick={closeMenu} to="/pages/music">
+              music page
+            </NavLink>
+            .
           </p>
         </div>
         <div className="home-page__about-section">
