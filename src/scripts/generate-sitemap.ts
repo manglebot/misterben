@@ -2,13 +2,7 @@ import path from "path";
 import sm, { EnumChangefreq, SitemapItemLoose } from "sitemap";
 import fs from "fs";
 
-const sitemapPath = path.resolve(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "sitemap.xml"
-);
+const sitemapPath = path.resolve(__dirname, "..", "public", "sitemap.xml");
 
 const urls: SitemapItemLoose[] = [
   {
