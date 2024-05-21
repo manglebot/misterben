@@ -1,9 +1,10 @@
+import React from "react";
 import { InstagramEmbed } from "react-social-media-embed";
 
 const Creative = () => {
   return (
     <div className="inner-page">
-      <h1 className="inner-page__title">Creative Design</h1>
+      <h1 className="inner-page__title">Benandi - album cover design</h1>
 
       <div className="inner-page__content">
         <p>
@@ -20,7 +21,7 @@ const Creative = () => {
           and have fun and in the end were delighted with the results.
         </p>
 
-        <h2>Misterben - Benandi album cover design</h2>
+        <h2>Misterben - Benandi</h2>
 
         <h3>I've released a few albums</h3>
 

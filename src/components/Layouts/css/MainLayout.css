@@ -134,7 +134,7 @@
 .inner-page__image {
   width: 100%;
   max-width: 1087px;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .home-page__image-1,

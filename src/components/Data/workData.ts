@@ -1,9 +1,9 @@
 import Developer from "../../Pages/Developer";
-import Creative from "../../Pages/Creative";
 import Marketing from "../../Pages/Marketing";
 import Website from "../../Pages/Website";
 import Print from "../../Pages/Print";
 import Interactive from "../../Pages/Interactive";
+import Benandi from "../../Pages/Benandi";
 
 const workData = [
   {
@@ -14,11 +14,11 @@ const workData = [
     element: Developer,
   },
   {
-    title: "Creative Design",
+    title: "Benandi",
     imgSrc: "assets/images/w_benandi.jpg",
-    imgAlt: "Creative Design",
-    to: "/pages/creative",
-    element: Creative,
+    imgAlt: "Benandi",
+    to: "/pages/benandi",
+    element: Benandi,
   },
   {
     title: "Marketing Design",
