@@ -9,7 +9,7 @@ const Play: React.FC = () => {
 
   return (
     <div>
-      <h1 className="main_title">PLAY</h1>
+      <h1 className="main__title">PLAY</h1>
       {portfolioItems}
     </div>
   );
