@@ -2,14 +2,13 @@ import { NavLink } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import "./css/Navbar.css";
 
-// ClassNames
 const activeLink = "nav__link--active";
 const normalLink = "nav__link";
 
 const navLinks = [
   { to: "/work", label: "Work" },
   { to: "/play", label: "Play" },
-  { to: "/contact", label: "Contact" },
+  { to: "/about", label: "About" },
 ];
 
 interface NavbarProps {

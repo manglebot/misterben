@@ -2,10 +2,10 @@ import { Route, Routes } from "react-router-dom";
 
 import MainLayout from "./MainLayout";
 import NotFound from "../../Pages/NotFound";
-import Home from "../../Pages/Home";
+// import Home from "../../Pages/Home";
 import Work from "../../Pages/Work";
 import Play from "../../Pages/Play";
-import Contact from "../../Pages/Contact";
+import About from "../../Pages/About";
 
 import workData from "../Data/workData";
 import playData from "../Data/playData";
@@ -16,10 +16,10 @@ const Router: React.FC = () => {
     <MenuProvider>
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Work />} />
           <Route path="work" element={<Work />} />
           <Route path="play" element={<Play />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
 
           {workData.map((item, index) => (
             <Route key={index} path={item.to} element={<item.element />} />
