@@ -81,16 +81,31 @@
   padding: 0 1em;
 }
 
+/* .about-page__about-section {
+  outline: solid green;
+} */
+
+.linkedin-text {
+  font-size: 1.3rem;
+}
+
 .home-page__about-text-paragraph {
   text-align: justify;
   padding: 0 10px 10px;
   margin: 0 10px 10px;
 }
 
-.home-page__about-social-media {
-  width: 48%;
-  padding: 0 10px 10px;
-  margin: 0 10px 10px;
+.about-page__about-social-media {
+  /* width: 88%; 
+  padding: 0 0px 10px;
+  margin: 0 0px 10px;
+  outline: solid yellow;*/
+  display: flex;
+  justify-content: center;
+}
+
+.bi-linkedin {
+  vertical-align: middle;
 }
 
 /* hide overflow from css zoom */
