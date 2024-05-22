@@ -1,8 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-// import { LinkProps } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
-// import styled from "styled-components";
 
 // Define your custom components
 const YouTubeEmbed = ({ src }: { src: string }) => (
@@ -25,19 +23,6 @@ const InstagramEmbed = ({ src }: { src: string }) => (
     allowTransparency
   ></iframe>
 );
-
-// Custom renderers
-const renderers = {
-  link: ({ href, children }: { href: string; children: React.ReactNode }) => {
-    if (href.includes("youtube.com")) {
-      return <YouTubeEmbed src={href} />;
-    }
-    if (href.includes("instagram.com")) {
-      return <InstagramEmbed src={href} />;
-    }
-    return <a href={href}>{children}</a>;
-  },
-};
 
 // Main Markdown component
 const MarkdownComponent = ({
