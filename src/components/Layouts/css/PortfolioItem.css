@@ -11,6 +11,7 @@
 
 .portfolio__title {
   padding-left: 1rem;
+  text-wrap: wrap;
 }
 
 .portfolio__item > a > div:first-child {

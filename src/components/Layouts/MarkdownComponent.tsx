@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { LinkProps } from "react-router-dom";
+// import { LinkProps } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
 // import styled from "styled-components";
 

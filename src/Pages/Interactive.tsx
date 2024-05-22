@@ -3,14 +3,14 @@ const Interactive = () => {
     <div className="inner-page">
       <h1 className="inner-page__title">Interactive Design</h1>
 
-      <h2>Francis Bacon Interactive</h2>
-
-      <h3>
-        Navigating Artistic Spaces: A Breakthrough Interactive Room Guide for
-        Tate Britain's Francis Bacon Exhibition
-      </h3>
-
       <div className="inner-page__content">
+        <h2>Francis Bacon Interactive</h2>
+
+        <h3>
+          Navigating Artistic Spaces: A Breakthrough Interactive Room Guide for
+          Tate Britain's Francis Bacon Exhibition
+        </h3>
+
         <p>
           OK, this was Donky's years ago (2008-9) back when Flash ruled
           interactive, but it's an example of me taking on a task and owning it.
