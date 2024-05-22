@@ -18,7 +18,8 @@
     "react-error-boundary": "^4.0.12",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.21.2",
-    "react-social-media-embed": "^2.4.1"
+    "react-social-media-embed": "^2.4.1",
+    "rehype-raw": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
