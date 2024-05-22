@@ -2,28 +2,6 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 
-// Define your custom components
-const YouTubeEmbed = ({ src }: { src: string }) => (
-  <iframe
-    width="560"
-    height="315"
-    src={src}
-    frameBorder="0"
-    allowFullScreen
-  ></iframe>
-);
-
-const InstagramEmbed = ({ src }: { src: string }) => (
-  <iframe
-    src={src}
-    width="400"
-    height="480"
-    frameBorder="0"
-    scrolling="no"
-    allowTransparency
-  ></iframe>
-);
-
 // Main Markdown component
 const MarkdownComponent = ({
   markdownContent,
