@@ -6,6 +6,7 @@ import NotFound from "../../Pages/NotFound";
 import Work from "../../Pages/Work";
 import Play from "../../Pages/Play";
 import About from "../../Pages/About";
+import PageTemplate from "./PageTemplate";
 
 import workData from "../Data/workData";
 import playData from "../Data/playData";
@@ -22,7 +23,13 @@ const Router: React.FC = () => {
           <Route path="about" element={<About />} />
 
           {workData.map((item, index) => (
-            <Route key={index} path={item.to} element={<item.element />} />
+            <Route
+              key={index}
+              path={item.to}
+              element={
+                <PageTemplate title={item.title} content={item.content} />
+              }
+            />
           ))}
           {playData.map((item, index) => (
             <Route key={index} path={item.to} element={<item.element />} />
