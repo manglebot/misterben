@@ -1,10 +1,3 @@
-// import Developer from "../../Pages/Developer";
-// import Marketing from "../../Pages/Marketing";
-// import Website from "../../Pages/Website";
-// import Print from "../../Pages/Print";
-// import Interactive from "../../Pages/Interactive";
-// import Benandi from "../../Pages/Benandi";
-// import React from "react";
 import { WorkDataItem } from "./types";
 
 const workData: WorkDataItem[] = [
