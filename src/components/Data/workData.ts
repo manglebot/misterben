@@ -18,7 +18,7 @@ const workData: WorkDataItem[] = [
 
   {
     title: "Rip Eat Repeat",
-    imgSrc: "img.jpg",
+    imgSrc: "assets/images/w_ripeatrepeat.jpg",
     imgAlt: "Rip Eat Repeat AI video",
     to: "/pages/ripeatrepeat",
     content: `Rip Eat Repeat is a drum & bass track I contributed to a compilation album supporting Mind, the mental health charity. To bring this track to life visually, I experimented with the Noisee AI video generator, creating a dynamic music video.\n\nThroughout the process, I generated numerous assets, continuously refining my prompts with the help of ChatGPT. Once I had the final video elements, I used Premiere Pro and After Effects to meticulously rework the timing and seamlessly integrate text into the visuals, enhancing the overall experience.\n\n<iframe width="560" height="315" src="https://www.youtube.com/embed/WiTg1yWnb2Q?si=IH7PkxR_mWRvgfbN" title="Rip Eat Repeat on You Tube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
