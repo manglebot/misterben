@@ -80,7 +80,7 @@ Most recently (Oct 23 - Jan 24), I completed a full stack Web Developer course f
 
 ![Tech Returners Certificate](/assets/images/tech-returners-certificate.jpg)
 
-Oh and I also built this site (the one you're looking at right now), originally in vanilla HTML, CSS and bits of JavaScript, but now completely rebuilt as a React site, with React Router and BEM CSS.`},{title:"Rip Eat Repeat",imgSrc:"img.jpg",imgAlt:"Rip Eat Repeat AI video",to:"/pages/ripeatrepeat",content:`Rip Eat Repeat is a drum & bass track I contributed to a compilation album supporting Mind, the mental health charity. To bring this track to life visually, I experimented with the Noisee AI video generator, creating a dynamic music video.
+Oh and I also built this site (the one you're looking at right now), originally in vanilla HTML, CSS and bits of JavaScript, but now completely rebuilt as a React site, with React Router and BEM CSS.`},{title:"Rip Eat Repeat",imgSrc:"assets/images/w_ripeatrepeat.jpg",imgAlt:"Rip Eat Repeat AI video",to:"/pages/ripeatrepeat",content:`Rip Eat Repeat is a drum & bass track I contributed to a compilation album supporting Mind, the mental health charity. To bring this track to life visually, I experimented with the Noisee AI video generator, creating a dynamic music video.
 
 Throughout the process, I generated numerous assets, continuously refining my prompts with the help of ChatGPT. Once I had the final video elements, I used Premiere Pro and After Effects to meticulously rework the timing and seamlessly integrate text into the visuals, enhancing the overall experience.
 
