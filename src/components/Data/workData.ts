@@ -46,6 +46,15 @@ const workData: WorkDataItem[] = [
     content: `While the majority of my career has been in creating digital based works, I have had periods of creating flyers for music nights, cafes, and working for multiple architects in creating publicity material, including InDesign print work for Metwork Architects.\n\n## Metropolitan Workshop\n\nFor a period of several months, I assisted the tender team at Metropolitan Workshop, a firm specializing in architecture and urban design. During this time, I was responsible for producing promotional materials and supporting documents for bids.\n\nOne of my key contributions was the creation of a 140-page brochure showcasing the company's portfolio of housing and masterplanning projects.\n\nAs a result of this project, I was tasked with updating the firm's InDesign templates to align with a new house style. To help the architects quickly adapt to these changes and maintain brand consistency, I also created a series of short training videos to explain exactly how the InDesign templates worked.\n\n![Metropolitan Workshop brochures](/assets/images/metwork_print.jpg)`,
   },
   {
+    title: "Tate Exhibitions",
+    imgSrc: "assets/images/w_tate_exhibitions.jpg",
+    imgAlt: "Tate Gallery Exhibition Websites",
+    to: "/pages/tate_gallery",
+    content: `### Exhibition microsites\n\nI had the pleasure of working for the Tate Gallery for 4 1/2 years, primarily looking after Tate Modern. One of my main tasks was to create a custom website for every exhibition. Usually following on from the print designs (website always came last!), I would create a design that complemented the print design along with creating room guides that allowed people to get a sneak preview or for people that couldn't get to the exhibition a chance to see what was on show.\n\nExamples shown here include the Duchamp, Man Ray Picabia exhibition where I managed to use the urinal holes as bullet points.\n\n![Screenshot of Duchamp, Man Ray, Picaba exhibition at Tate Modern](/assets/images/tate_duchamp.jpg)\n\nDoris Salcedo print artwork came in at an angle, so I created a website where nearly everything was slightly wonky.\n\n![Screenshot of Doris Salcedo exhibition at Tate Modern](/assets/images/tate_salcedo.jpg)\n\nStreet & Studio was a fairly minimal design with a simple blue strip that I carried through each page.\n\n![Screenshot of Street & Studio exhibition at Tate Modern](/assets/images/tate_street+studio1.jpg)\n\n![Screenshot of Street & Studio exhibition at Tate Modern](/assets/images/tate_street+studio2.jpg)\n\nI had more freedom (and less time) with Tate Modern's smaller exhibition space Level 2 Gallery, and got to create my own layouts, not following any existing print designs - so I would design sites inspired by the artwork on display. Here I used Nicholas Hlobo's beautiful patchworks as a colourful background with translucent text boxes.
+
+    `,
+  },
+  {
     title: "Francis Bacon  Tate Britain",
     imgSrc: "assets/images/w_tate-bacon.jpg",
     imgAlt: "Francis Bacon Interactive at Tate Britain",
