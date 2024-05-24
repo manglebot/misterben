@@ -4,7 +4,7 @@ import MainLayout from "./MainLayout";
 import NotFound from "../../Pages/NotFound";
 // import Home from "../../Pages/Home";
 import Work from "../../Pages/Work";
-import Play from "../../Pages/Play";
+// import Play from "../../Pages/Play";
 import About from "../../Pages/About";
 import PageTemplate from "./PageTemplate";
 
@@ -22,7 +22,7 @@ const Router: React.FC = () => {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Work />} />
           <Route path="work" element={<Work />} />
-          <Route path="play" element={<Play />} />
+          {/* <Route path="play" element={<Play />} /> */}
           <Route path="about" element={<About />} />
 
           {workData.map((item, index) => (
@@ -34,9 +34,9 @@ const Router: React.FC = () => {
               }
             />
           ))}
-          {playData.map((item, index) => (
+          {/* {playData.map((item, index) => (
             <Route key={index} path={item.to} element={<item.element />} />
-          ))}
+          ))} */}
 
           <Route path="*" element={<NotFound />} />
         </Route>
