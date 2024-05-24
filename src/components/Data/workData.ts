@@ -2,7 +2,7 @@ import { WorkDataItem } from "./types";
 
 const workData: WorkDataItem[] = [
   {
-    title: "Web Development",
+    title: "Web Design & Development",
     imgSrc: "assets/images/me_coder.jpg",
     imgAlt: "Web Developer",
     to: "/pages/developer",

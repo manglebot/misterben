@@ -2,6 +2,8 @@ import Photography from "../../Pages/Photography";
 import Music from "../../Pages/Music";
 import Video from "../../Pages/Video";
 import Art from "../../Pages/Art";
+import DebugPage from "../../Pages/DebugPage";
+import { title } from "process";
 // import AiArt from "../../pages/AiArt";
 // import AiLogos from "../../pages/AiLogos";
 
@@ -34,6 +36,14 @@ const playData = [
     to: "/pages/art",
     element: Art,
   },
+  {
+    title: "DebugPage",
+    imgSrc: "assets/images/p_art.jpg",
+    imgAlt: "DebugPage",
+    to: "/pages/debugpage",
+    element: DebugPage,
+  },
+
   // {
   //   title: "AI Art",
   //   imgSrc: "assets/images/p_ai_art.jpg",
