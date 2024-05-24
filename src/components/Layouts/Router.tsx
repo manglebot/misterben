@@ -12,9 +12,12 @@ import workData from "../Data/workData";
 import playData from "../Data/playData";
 import MenuProvider from "../Navigation/MenuContext";
 
+import ScrollToTop from "../Navigation/ScrollToTop";
+
 const Router: React.FC = () => {
   return (
     <MenuProvider>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Work />} />

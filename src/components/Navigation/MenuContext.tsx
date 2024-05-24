@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import ScrollToTopOnMount from "../Layouts/ScrollToTopOnMount";
+// import ScrollToTopOnMount from "../Layouts/ScrollToTopOnMount";
 
 interface MenuContextType {
   isMenuOpen: boolean;
@@ -34,19 +34,17 @@ const MenuProvider: React.FC<MenuProviderProps> = ({ children }) => {
   };
 
   return (
-    <ScrollToTopOnMount>
-      <MenuContext.Provider
-        value={{
-          isMenuOpen,
-          setIsMenuOpen,
-          closeMenu,
-          isHamburgerMenuVisible,
-          setIsHamburgerMenuVisible,
-        }}
-      >
-        {children}
-      </MenuContext.Provider>
-    </ScrollToTopOnMount>
+    <MenuContext.Provider
+      value={{
+        isMenuOpen,
+        setIsMenuOpen,
+        closeMenu,
+        isHamburgerMenuVisible,
+        setIsHamburgerMenuVisible,
+      }}
+    >
+      {children}
+    </MenuContext.Provider>
   );
 };
 
