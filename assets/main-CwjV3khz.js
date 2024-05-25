@@ -84,7 +84,8 @@ Oh and I also built this site (the one you're looking at right now), originally 
 
 Throughout the process, I generated numerous assets, continuously refining my prompts with the help of ChatGPT. Once I had the final video elements, I used Premiere Pro and After Effects to meticulously rework the timing and seamlessly integrate text into the visuals, enhancing the overall experience.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WiTg1yWnb2Q?si=IH7PkxR_mWRvgfbN" title="Rip Eat Repeat on You Tube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`},{title:"Benandi",imgSrc:"assets/images/w_benandi.jpg",imgAlt:"Benandi",to:"/pages/benandi",content:`You know that design where the client says "anything goes". I don't get it often, and even then, I know it's still almost always got a brand identity to guide it. But just occasionally I get complete freedom to do anything I like, and that's when I have lot of fun, and usually end up learning new things along the way...
+<div className="horizontal-video"><iframe src="https://www.youtube.com/embed/WiTg1yWnb2Q?si=IH7PkxR_mWRvgfbN" title="Rip Eat Repeat on You Tube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>`},{title:"Benandi",imgSrc:"assets/images/w_benandi.jpg",imgAlt:"Benandi",to:"/pages/benandi",content:`You know that design where the client says "anything goes". I don't get it often, and even then, I know it's still almost always got a brand identity to guide it. But just occasionally I get complete freedom to do anything I like, and that's when I have lot of fun, and usually end up learning new things along the way...
 
 Below is one such example, because it's design for my own music, but the record label releasing it were really happy for me to just play and have fun and in the end were delighted with the results.
 
@@ -120,11 +121,11 @@ Here are a couple of earlier concepts.
 
 In After Effects and Premiere Pro, I also created promo shorts for this release such as the examples below.
 
-<div style="text-align: center;"><iframe width="381" height="677" src="https://www.youtube.com/embed/UfKtbYjthv8" title="misterben instagram promo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div className="vertical-video"><iframe width="381" height="677" src="https://www.youtube.com/embed/UfKtbYjthv8" title="misterben instagram promo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div style="text-align: center;"><iframe width="381" height="677" src="https://youtube.com/embed/bewsBcwJ7CI" title="misterben youtube promo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<iframe width="381" height="677" src="https://youtube.com/embed/bewsBcwJ7CI" title="misterben youtube promo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
-<div style="text-align: center;"><iframe src="https://www.instagram.com/reel/CxoCjUVpXir/embed" width="581" height="680" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div>`},{title:"Quba & Co.",imgSrc:"assets/images/w_quba.jpg",imgAlt:"Quba &amp; Co.",to:"/pages/quba",content:`I have plenty of experience of designing promotional material for websites and emails, and some print related marketing materials.
+<div  className="instagram-video"><iframe src="https://www.instagram.com/reel/CxoCjUVpXir/embed" width="581" height="680" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div>`},{title:"Quba & Co.",imgSrc:"assets/images/w_quba.jpg",imgAlt:"Quba &amp; Co.",to:"/pages/quba",content:`I have plenty of experience of designing promotional material for websites and emails, and some print related marketing materials.
 
 Below is my most recent work, with Quba & Co. I have worked with a number of fashion sites, including N Brown, and Arcadia Group. Often this work is rapid development where I'm given an image and some text and need something ready within an hour or two, which can be both challenging and rewarding.
 
