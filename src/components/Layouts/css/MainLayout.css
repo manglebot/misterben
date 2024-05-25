@@ -45,8 +45,49 @@
   display: block;
   text-align: left;
   visibility: visible;
-  width: auto;
-  margin-right: 2rem;
+  /* margin-right: 1rem; */
+  max-width: 90%;
+}
+
+.main__layout .main__content > .inner-page .horizontal-video,
+.main__layout .main__content > .inner-page .vertical-video,
+.main__layout .main__content > .inner-page .instagram-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.vertical-video iframe {
+  max-width: 320px;
+  height: auto;
+  min-height: 570px;
+  margin: 10px;
+}
+
+.main__layout .main__content > .inner-page .horizontal-video {
+  width: 100%;
+  /* max-width: 640px; */
+  height: auto;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+.main__layout .main__content > .inner-page .instagram-video {
+  max-width: 100%;
+}
+
+.main__layout .main__content > .inner-page .horizontal-video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* added for the markdown pages automatically generated with no styles */
