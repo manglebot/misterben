@@ -6,10 +6,14 @@
   min-width: 0;
 }
 
+/* nice bg = F1E9DA */
+/* old bg = e4e6de */
+
 :root {
   --main-text-color: #363a40;
   --background-color: #e4e6de;
-  --accent-color: orange;
+  --link--background-color: #fff;
+  --accent-color: #5a6151;
 }
 
 body {
