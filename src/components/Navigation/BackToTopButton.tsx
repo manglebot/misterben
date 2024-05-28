@@ -30,7 +30,7 @@ const BackToTopButton = () => {
       onClick={scrollToTop}
       style={{ display: isVisible ? "block" : "none" }}
     >
-      Back to Top
+      <span>Back to Top</span>
     </button>
   );
 };
