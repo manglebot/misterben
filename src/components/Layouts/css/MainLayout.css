@@ -22,8 +22,8 @@
 }
 
 .main__content {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
   font-weight: bold;
   flex-grow: 1;
@@ -164,9 +164,9 @@
   overflow: hidden;
 }
 
-.inner-page {
+/* .inner-page {
   width: 95vw;
-}
+} */
 
 .inner-page__title {
   font-size: clamp(1rem, 3rem, 4rem);

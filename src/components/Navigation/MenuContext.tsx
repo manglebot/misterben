@@ -1,5 +1,4 @@
 import { createContext, useContext, useState } from "react";
-// import ScrollToTopOnMount from "../Layouts/ScrollToTopOnMount";
 
 interface MenuContextType {
   isMenuOpen: boolean;

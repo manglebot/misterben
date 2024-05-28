@@ -26,8 +26,9 @@
 }
 
 .nav_label:hover {
-  background-color: #fff;
+  background-color: var(--link--background-color);
   color: var(--main-text-color);
+  border-radius: 0 12px 12px 0;
 }
 
 .nav__link {
@@ -39,8 +40,9 @@
 
 .nav__link:hover,
 .nav__link--active:hover {
-  background-color: #fff;
+  background-color: var(--link--background-color);
   color: var(--main-text-color);
+  border-radius: 0 12px 12px 0;
 }
 
 .nav__link--active {
@@ -48,8 +50,9 @@
   padding: 0.7em;
   color: inherit;
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--link--background-color);
   color: var(--main-text-color);
+  border-radius: 0 12px 12px 0;
 }
 
 .logo {
