@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import Navigation from "../Navigation/Navigation";
 import "./css/MainLayout.css";
+import Navigation from "../Navigation/Navigation";
 import HamburgerMenu from "./HamburgerMenu";
 import "./css/HamburgerMenu.css";
 import { useMenuContext } from "../Navigation/MenuContext";
+import BackToTopButton from "../Navigation/BackToTopButton";
 
 function MainLayout() {
   const {
@@ -34,22 +35,25 @@ function MainLayout() {
   }, [isMenuOpen, setIsHamburgerMenuVisible, closeMenu]);
 
   return (
-    <div
-      className={`main__layout ${
-        isMenuOpen && isHamburgerMenuVisible ? "main__layout--open" : ""
-      }`}
-    >
-      <Navigation />
-      <main className="main__content">
-        {isHamburgerMenuVisible && (
-          <HamburgerMenu
-            isMenuOpen={isMenuOpen}
-            setIsMenuOpen={setIsMenuOpen}
-          />
-        )}
-        <Outlet />
-      </main>
-    </div>
+    <>
+      <BackToTopButton />
+      <div
+        className={`main__layout ${
+          isMenuOpen && isHamburgerMenuVisible ? "main__layout--open" : ""
+        }`}
+      >
+        <Navigation />
+        <main className="main__content">
+          {isHamburgerMenuVisible && (
+            <HamburgerMenu
+              isMenuOpen={isMenuOpen}
+              setIsMenuOpen={setIsMenuOpen}
+            />
+          )}
+          <Outlet />
+        </main>
+      </div>
+    </>
   );
 }
 
