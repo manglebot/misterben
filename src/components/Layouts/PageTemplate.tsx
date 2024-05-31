@@ -1,9 +1,6 @@
 import React, { useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+import { gsap, useGSAP } from "../../Utilities/gsapUtils";
 import MarkdownComponent from "./MarkdownComponent";
-
-gsap.registerPlugin(useGSAP);
 
 interface PageTemplateProps {
   title: string;

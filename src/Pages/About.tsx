@@ -10,8 +10,8 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <h1 className="home_title">CONTACT</h1>
-      <h2 className="home_subtitle">Get in touch.</h2>
+      <h1 className="main__title">CONTACT</h1>
+      <h2 className="main__subtitle">Get in touch.</h2>
       <p>
         Feel free to get in touch. CV can be sent on request -{" "}
         <a href={`mailto:${generateEmail()}`}>{generateEmail()}</a>
