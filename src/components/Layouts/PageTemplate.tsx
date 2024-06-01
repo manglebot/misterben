@@ -5,26 +5,40 @@ import MarkdownComponent from "./MarkdownComponent";
 interface PageTemplateProps {
   title: string;
   content: string;
+  onClose: () => void;
 }
 
-const PageTemplate: React.FC<PageTemplateProps> = ({ title, content }) => {
+const PageTemplate: React.FC<PageTemplateProps> = ({
+  title,
+  content,
+  onClose,
+}) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
+    const tl = gsap.timeline();
+
     if (titleRef.current) {
-      gsap.fromTo(
-        titleRef.current,
-        { opacity: 0, y: -50 },
-        { opacity: 1, y: 0, duration: 0.2 }
-      );
+      tl.from(titleRef.current, {
+        opacity: 0,
+        scale: 0,
+        transformOrigin: "center center",
+        duration: 0.5,
+      });
     }
+
     if (contentRef.current) {
-      gsap.fromTo(
+      tl.from(
         contentRef.current,
-        { opacity: 0, y: "-100%" },
-        { opacity: 1, y: 0, duration: 0.5, delay: 0.1 }
+        {
+          opacity: 0,
+          scale: 0,
+          transformOrigin: "center center",
+          duration: 0.5,
+        },
+        "-=0.3" // Overlap the content animation with the title animation
       );
     }
     if (containerRef.current) {
@@ -41,6 +55,9 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ title, content }) => {
 
   return (
     <div className="inner-page" ref={containerRef}>
+      <div className="inner-page__close-button" onClick={onClose}>
+        Close
+      </div>
       <h1 ref={titleRef}>{title}</h1>
       <div ref={contentRef}>
         <MarkdownComponent markdownContent={content} />

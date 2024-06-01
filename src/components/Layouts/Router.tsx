@@ -24,7 +24,11 @@ const Router: React.FC = () => {
               key={index}
               path={item.to}
               element={
-                <PageTemplate title={item.title} content={item.content} />
+                <PageTemplate
+                  title={item.title}
+                  content={item.content}
+                  onClose={() => {}}
+                />
               }
             />
           ))}

@@ -14,12 +14,21 @@ const Work: React.FC = () => {
     setSelectedItemIndex(index);
   };
 
+  const handleCloseClick = () => {
+    setSelectedItemIndex(null);
+  };
+
   return (
     <div>
       <h1 className="main__title">WORK</h1>
       {workData.map((item, index) =>
         selectedItemIndex === index ? (
-          <PageTemplate key={index} title={item.title} content={item.content} />
+          <PageTemplate
+            key={index}
+            title={item.title}
+            content={item.content}
+            onClose={handleCloseClick}
+          />
         ) : (
           <PortfolioItem
             key={index}
