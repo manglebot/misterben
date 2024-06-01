@@ -19,8 +19,6 @@ const Router: React.FC = () => {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Work />} />
           <Route path="work" element={<Work />} />
-          <Route path="about" element={<About />} />
-
           {workData.map((item, index) => (
             <Route
               key={index}
@@ -30,6 +28,7 @@ const Router: React.FC = () => {
               }
             />
           ))}
+          <Route path="about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
