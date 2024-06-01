@@ -27,7 +27,17 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ title, content }) => {
         { opacity: 1, y: 0, duration: 0.5, delay: 0.1 }
       );
     }
-  }, [titleRef, contentRef]);
+    if (containerRef.current) {
+      const containerRect = containerRef.current.getBoundingClientRect();
+      gsap.to(window, {
+        duration: 0.5,
+        scrollTo: {
+          y: containerRect.top,
+          autoKill: false,
+        },
+      });
+    }
+  }, [titleRef, contentRef, containerRef]);
 
   return (
     <div className="inner-page" ref={containerRef}>
