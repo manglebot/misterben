@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import "./css/PortfolioItem.css";
 
-interface FolioItemProps {
+interface PortfolioItemProps {
   title: string;
   imgSrc: string;
   imgAlt: string;
   to: string;
 }
 
-const FolioItem = ({ title, imgSrc, imgAlt, to }: FolioItemProps) => {
+const PortfolioItem = ({ title, imgSrc, imgAlt, to }: PortfolioItemProps) => {
   return (
     <div className="portfolio__item">
       <NavLink to={to} className="portfolio__link">
@@ -21,4 +21,4 @@ const FolioItem = ({ title, imgSrc, imgAlt, to }: FolioItemProps) => {
   );
 };
 
-export default FolioItem;
+export default PortfolioItem;
