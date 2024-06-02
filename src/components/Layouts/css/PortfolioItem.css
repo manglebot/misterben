@@ -142,7 +142,7 @@
 
   .portfolio__item {
     margin-top: 0px;
-    padding-bottom: 9px;
+    /* padding-bottom: 9px; */
     overflow: hidden;
   }
 

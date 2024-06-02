@@ -281,10 +281,29 @@ a:hover {
   width: 100%;
 }
 
+/* Media query for ipads etc */
+@media (max-width: 1000px) {
+  .main__content {
+    padding: 0 3px 0 0;
+  }
+}
+
 /* Media query for screens with a maximum width of 767px (typical for mobile devices) */
 @media (max-width: 767px) {
+  .main__content {
+    padding: 0px 3px 0px 0px; /* Display images in pairs, taking up 50% of the width */
+  }
   .inner-page__collection-8-image {
     flex: 0 0 50%; /* Display images in pairs, taking up 50% of the width */
+  }
+  .inner-page__collection {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 439px) {
+  .main__content {
+    padding: 0px 8px 0px 0px; /* Display images in pairs, taking up 50% of the width */
   }
 
   .inner-page__collection {
