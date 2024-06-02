@@ -3,6 +3,7 @@ import PortfolioItem from "../components/Layouts/PortfolioItem";
 import "../components/Layouts/css/PortfolioItem.css";
 import workData from "../components/Data/workData";
 import PageTemplate from "../components/Layouts/PageTemplate";
+import { useMenuContext } from "../components/Navigation/MenuContext";
 import "./css/Work.css";
 
 const Work: React.FC = () => {
@@ -13,12 +14,16 @@ const Work: React.FC = () => {
     workData.map(() => React.createRef<HTMLDivElement>())
   );
 
+  const { setIsMenuOpen } = useMenuContext();
+
   const handleItemClick = (index: number) => {
     setSelectedItemIndex(index);
+    setIsMenuOpen(false);
   };
 
   const handleCloseClick = () => {
     setSelectedItemIndex(null);
+    setIsMenuOpen(false);
   };
 
   return (

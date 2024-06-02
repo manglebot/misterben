@@ -1,11 +1,6 @@
 import Navbar from "./Navbar";
 import "./css/Navigation.css";
-import { useMenuContext } from "./MenuContext"; // Import the context
-
-// interface NavigationProps {
-//   isMenuOpen: boolean;
-//   setIsMenuOpen: (open: boolean) => void;
-// }
+import { useMenuContext } from "./MenuContext";
 
 const Navigation: React.FC = ({}) => {
   const { isMenuOpen, setIsMenuOpen } = useMenuContext();

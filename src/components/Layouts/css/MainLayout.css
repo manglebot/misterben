@@ -53,6 +53,7 @@
   background-color: #fff;
   position: relative;
   padding: 1rem;
+  border-left: 9px solid #f89;
 }
 
 .main__layout .main__content > .inner-page .horizontal-video,
