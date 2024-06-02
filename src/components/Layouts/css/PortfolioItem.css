@@ -7,7 +7,7 @@
   width: 100%;
   height: auto;
   max-height: 300px;
-  /* outline: solid 2px 0 red; */
+  border-top: solid 9px #f89;
 }
 
 .portfolio__title {
@@ -71,9 +71,8 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
-  /* background-color: #00ccff; */
-
   background-color: var(--accent-color);
+  /* margin: 1rem 0 0 1rem; */
 
   cursor: pointer;
 }

@@ -30,6 +30,7 @@ const Work: React.FC = () => {
             key={index}
             title={item.title}
             content={item.content}
+            borderColor={item.borderColor}
             onClose={handleCloseClick}
             previousContentRef={portfolioItemRefs.current[index] || null} // Wrap the value in a ref object
           />
@@ -40,6 +41,7 @@ const Work: React.FC = () => {
             title={item.title}
             imgSrc={item.imgSrc}
             imgAlt={item.imgAlt}
+            borderColor={item.borderColor}
             onItemClick={() => handleItemClick(index)}
           />
         )

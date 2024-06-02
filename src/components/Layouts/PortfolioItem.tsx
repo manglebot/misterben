@@ -1,4 +1,4 @@
-import React, { forwardRef, useImperativeHandle, useRef } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
 import { gsap } from "../../Utilities/gsapUtils";
 import "./css/PortfolioItem.css";
 
@@ -6,18 +6,18 @@ interface PortfolioItemProps {
   title: string;
   imgSrc: string;
   imgAlt: string;
+  borderColor: string;
   onItemClick: () => void;
 }
 
 const PortfolioItem = forwardRef<HTMLDivElement, PortfolioItemProps>(
-  ({ title, imgSrc, imgAlt, onItemClick }, ref) => {
+  ({ title, imgSrc, imgAlt, borderColor, onItemClick }, ref) => {
     const itemRef = useRef<HTMLDivElement>(null);
 
     useImperativeHandle(ref, () => itemRef.current!);
 
     const handleClick = () => {
       if (itemRef.current) {
-        console.log("handleClick if");
         gsap.to(itemRef.current, {
           duration: 0.5,
           scale: 0,
@@ -29,6 +29,12 @@ const PortfolioItem = forwardRef<HTMLDivElement, PortfolioItemProps>(
         });
       }
     };
+
+    useEffect(() => {
+      if (itemRef.current) {
+        itemRef.current.style.borderTopColor = borderColor;
+      }
+    }, [borderColor]);
 
     return (
       <div className="portfolio__item" ref={itemRef} onClick={handleClick}>

@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { gsap, useGSAP } from "../../Utilities/gsapUtils";
 import MarkdownComponent from "./MarkdownComponent";
 
 interface PageTemplateProps {
   title: string;
   content: string;
+  borderColor: string;
   onClose: () => void;
   previousContentRef: React.RefObject<HTMLDivElement> | null; // Update the type to accept null
 }
@@ -12,6 +13,7 @@ interface PageTemplateProps {
 const PageTemplate: React.FC<PageTemplateProps> = ({
   title,
   content,
+  borderColor,
   onClose,
   previousContentRef,
 }) => {
@@ -50,7 +52,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({
       gsap.to(window, {
         duration: 0.5,
         scrollTo: {
-          y: closeButtonRect.top + window.scrollY,
+          y: closeButtonRect.top - 20 + window.scrollY,
           autoKill: false,
         },
       });
@@ -76,19 +78,25 @@ const PageTemplate: React.FC<PageTemplateProps> = ({
       if (previousContentRef?.current) {
         tl.fromTo(
           previousContentRef.current,
-          { scale: 0, opacity: 0 }, // Start from a scaled-down and hidden state
+          { scale: 0, opacity: 0 },
           {
             duration: 0.5,
             scale: 1,
             opacity: 1,
             transformOrigin: "top left",
-            clearProps: "all", // Clear GSAP properties to prevent conflicts
+            clearProps: "all",
           },
-          "-=0.3" // Overlap the animations slightly for a smoother transition
+          "-=0.3"
         );
       }
     }
   };
+
+  useEffect(() => {
+    if (containerRef.current) {
+      containerRef.current.style.borderLeftColor = borderColor;
+    }
+  }, [borderColor]);
 
   return (
     <div className="inner-page" ref={containerRef}>
