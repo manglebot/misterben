@@ -4,11 +4,8 @@ import MainLayout from "./MainLayout";
 import NotFound from "../../Pages/NotFound";
 import Work from "../../Pages/Work";
 import About from "../../Pages/About";
-import PageTemplate from "./PageTemplate";
-
-import workData from "../Data/workData";
+// import workData from "../Data/workData";
 import MenuProvider from "../Navigation/MenuContext";
-
 import ScrollToTop from "../Navigation/ScrollToTop";
 
 const Router: React.FC = () => {
@@ -19,19 +16,6 @@ const Router: React.FC = () => {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Work />} />
           <Route path="work" element={<Work />} />
-          {workData.map((item, index) => (
-            <Route
-              key={index}
-              path={item.to}
-              element={
-                <PageTemplate
-                  title={item.title}
-                  content={item.content}
-                  onClose={() => {}}
-                />
-              }
-            />
-          ))}
           <Route path="about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Route>

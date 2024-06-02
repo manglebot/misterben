@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import PortfolioItem from "../components/Layouts/PortfolioItem";
 import "../components/Layouts/css/PortfolioItem.css";
 import workData from "../components/Data/workData";
@@ -8,6 +8,9 @@ import "./css/Work.css";
 const Work: React.FC = () => {
   const [selectedItemIndex, setSelectedItemIndex] = useState<number | null>(
     null
+  );
+  const portfolioItemRefs = useRef<Array<React.RefObject<HTMLDivElement>>>(
+    workData.map(() => React.createRef<HTMLDivElement>())
   );
 
   const handleItemClick = (index: number) => {
@@ -28,11 +31,15 @@ const Work: React.FC = () => {
             title={item.title}
             content={item.content}
             onClose={handleCloseClick}
+            previousContentRef={portfolioItemRefs.current[index] || null} // Wrap the value in a ref object
           />
         ) : (
           <PortfolioItem
             key={index}
-            {...item}
+            ref={portfolioItemRefs.current[index]}
+            title={item.title}
+            imgSrc={item.imgSrc}
+            imgAlt={item.imgAlt}
             onItemClick={() => handleItemClick(index)}
           />
         )

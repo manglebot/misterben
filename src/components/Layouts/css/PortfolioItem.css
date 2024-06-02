@@ -7,6 +7,7 @@
   width: 100%;
   height: auto;
   max-height: 300px;
+  /* outline: solid 2px 0 red; */
 }
 
 .portfolio__title {
@@ -55,6 +56,65 @@
   max-width: 100%;
   object-fit: cover;
 }
+
+/* CSS button styles */
+
+.inner-page__close-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  /* background-color: #00ccff; */
+
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.inner-page__close-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #00ccff; */
+  background-color: var(--accent-color);
+  /* color: var(--button-text-color); */
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.inner-page__close-button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  /* background-color: #009fbf; */
+  background-color: var(--button-background-color);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.inner-page__close-button:hover {
+  color: #fff;
+}
+
+.inner-page__close-button:hover::before {
+  width: 100%;
+}
+
+/* CSS button styles */
 
 @media (max-width: 1469px) {
   .portfolio__link {

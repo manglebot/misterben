@@ -6,18 +6,19 @@ interface PageTemplateProps {
   title: string;
   content: string;
   onClose: () => void;
-  portfolioItemRef: React.RefObject<HTMLDivElement>;
+  previousContentRef: React.RefObject<HTMLDivElement> | null; // Update the type to accept null
 }
 
 const PageTemplate: React.FC<PageTemplateProps> = ({
   title,
   content,
   onClose,
-  portfolioItemRef,
+  previousContentRef,
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
     const tl = gsap.timeline();
@@ -26,7 +27,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({
       tl.from(titleRef.current, {
         opacity: 0,
         scale: 0,
-        transformOrigin: "center center",
+        transformOrigin: "top left",
         duration: 0.5,
       });
     }
@@ -37,44 +38,65 @@ const PageTemplate: React.FC<PageTemplateProps> = ({
         {
           opacity: 0,
           scale: 0,
-          transformOrigin: "center center",
+          transformOrigin: "top left",
           duration: 0.5,
         },
         "-=0.3"
       );
     }
 
-    if (containerRef.current) {
-      const containerRect = containerRef.current.getBoundingClientRect();
+    if (closeButtonRef.current) {
+      const closeButtonRect = closeButtonRef.current.getBoundingClientRect();
       gsap.to(window, {
         duration: 0.5,
         scrollTo: {
-          y: containerRect.top,
+          y: closeButtonRect.top + window.scrollY,
           autoKill: false,
         },
       });
     }
-  }, [titleRef, contentRef, containerRef]);
+  }, [titleRef, contentRef, closeButtonRef]);
 
   const handleCloseClick = () => {
-    gsap.to(containerRef.current, {
-      duration: 0.5,
-      scale: 0,
-      transformOrigin: "center center",
-      onComplete: () => {
-        onClose();
-        gsap.to(portfolioItemRef.current, {
-          duration: 0.5,
-          scale: 1,
-          transformOrigin: "center center",
-        });
-      },
-    });
+    console.log("handleCloseClick");
+    if (containerRef.current) {
+      const tl = gsap.timeline({
+        onComplete: () => {
+          onClose();
+          gsap.set(containerRef.current, { clearProps: "all" });
+        },
+      });
+
+      tl.to(containerRef.current, {
+        duration: 0.5,
+        scale: 0,
+        transformOrigin: "top left",
+      });
+
+      if (previousContentRef?.current) {
+        tl.fromTo(
+          previousContentRef.current,
+          { scale: 0, opacity: 0 }, // Start from a scaled-down and hidden state
+          {
+            duration: 0.5,
+            scale: 1,
+            opacity: 1,
+            transformOrigin: "top left",
+            clearProps: "all", // Clear GSAP properties to prevent conflicts
+          },
+          "-=0.3" // Overlap the animations slightly for a smoother transition
+        );
+      }
+    }
   };
 
   return (
     <div className="inner-page" ref={containerRef}>
-      <div className="inner-page__close-button" onClick={handleCloseClick}>
+      <div
+        className="inner-page__close-button"
+        ref={closeButtonRef}
+        onClick={handleCloseClick}
+      >
         Close
       </div>
       <h1 ref={titleRef}>{title}</h1>
