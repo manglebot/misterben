@@ -19,10 +19,9 @@ const PortfolioItem = forwardRef<HTMLDivElement, PortfolioItemProps>(
     const handleClick = () => {
       if (itemRef.current) {
         gsap.to(itemRef.current, {
-          duration: 0.5,
+          duration: 0.4,
           scale: 0,
           transformOrigin: "top left",
-          borderRadius: "50%",
           onComplete: () => {
             onItemClick();
           },

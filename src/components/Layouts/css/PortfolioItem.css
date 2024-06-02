@@ -141,8 +141,9 @@
   }
 
   .portfolio__item {
-    max-height: fit-content;
-    width: auto;
+    margin-top: 0px;
+    padding-bottom: 9px;
+    overflow: hidden;
   }
 
   .portfolio__item a {
@@ -152,7 +153,6 @@
   }
 
   .portfolio__item div img {
-    width: 93vw;
     max-height: fit-content;
   }
 
