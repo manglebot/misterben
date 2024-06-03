@@ -8,7 +8,7 @@ const activeLink = "nav__link--active";
 const normalLink = "nav__link";
 
 const navLinks = [
-  { to: "/work", label: "Work" },
+  { to: "/work", label: "Portfolio" },
   { to: "/about", label: "About" },
 ];
 

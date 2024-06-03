@@ -28,7 +28,7 @@ const Work: React.FC = () => {
 
   return (
     <div>
-      <h1 className="main__title">WORK</h1>
+      <h1 className="main__title">PORTFOLIO</h1>
       {workData.map((item, index) =>
         selectedItemIndex === index ? (
           <PageTemplate
