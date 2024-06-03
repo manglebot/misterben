@@ -8,6 +8,7 @@
   height: auto;
   max-height: 300px;
   border-top: solid 9px #f89;
+  cursor: pointer;
 }
 
 .portfolio__title {
