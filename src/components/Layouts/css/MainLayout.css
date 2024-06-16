@@ -54,6 +54,7 @@
   position: relative;
   padding: 1rem;
   border-left: 9px solid #f89;
+  border-radius: 2.5rem 0 0 0;
 }
 
 .main__layout .main__content > .inner-page .horizontal-video,
