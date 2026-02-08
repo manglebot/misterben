@@ -9,6 +9,21 @@ export interface WorkDataItem {
 
 const workData: WorkDataItem[] = [
   {
+    title: "Rural Data Drift, 2026",
+    imgSrc: "assets/images/rural_data_drift_title.jpg",
+    imgAlt: "Rural Data Drift album cover",
+    to: "/pages/developer",
+    borderColor: "rgba(99, 89, 84, 1)",
+    content: `## Album / Modular Synth Composition.\n\nRural Data Drift is a deeply personal and introspective electronic album, born from a rare five-day retreat in the beautiful rural countryside. Away from family, work, and daily demands, I immersed myself in uninterrupted creative flow-long walks, infrared photography, simple meals, and spontaneous music-making.\n\nEquipped with a modular synthesizer, keyboard, and laptop, I captured ideas as they emerged, free from commercial pressures or external expectations. The result is a collection of 13 tracks that represent a pure "mind dump" of sonic exploration: playful, unfiltered, and driven purely by the joy of experimentation.\n\nReleased on January 2, 2026, the album is available on Bandcamp as pay-what-you-like, inviting listeners to engage without obligation - [Available Here](https://misterben.bandcamp.com/album/rural-data-drift).\n\n<div class="image-grid">
+    <img src="/assets/images/rural_data_drift_1.jpg" />
+    <img src="/assets/images/rural_data_drift_2.jpg" />
+    <img src="/assets/images/rural_data_drift_3.jpg" />
+    <img src="/assets/images/rural_data_drift_4.jpg" />
+    <img src="/assets/images/rural_data_drift_5.jpg" />
+    <img src="/assets/images/rural_data_drift_6.jpg" />
+</div>`,
+  },  
+  {
     title: "Web Design & Development",
     imgSrc: "assets/images/me_coder.jpg",
     imgAlt: "Web Developer",

@@ -273,6 +273,29 @@ a:hover {
   font-size: 2.5rem;
 }
 
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images */
+}
+
+.image-grid img {
+    flex: 1 1 calc(16.66% - 10px);  /* Adjust for 6 images; change percentage for fewer images */
+    margin: 5px; /* Space between images */
+}
+
+@media (max-width: 768px) {
+    .image-grid img {
+        flex: 1 1 calc(20% - 10px); /* For 5 images */
+    }
+}
+
+@media (max-width: 500px) {
+    .image-grid img {
+        flex: 1 1 calc(25% - 10px); /* For 4 images */
+    }
+}
+
 /* not my style name, React Social Media Embed  */
 .rsme-embed {
   padding: 10px;
