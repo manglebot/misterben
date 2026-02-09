@@ -9,7 +9,22 @@ export interface WorkDataItem {
 
 const workData: WorkDataItem[] = [
   {
-    title: "Rural Data Drift, 2026",
+    title: "Artworker",
+    imgSrc: "assets/images/mccann.jpg",
+    imgAlt: "Artworker",
+    to: "/pages/artworker",
+    borderColor: "rgb(0, 0, 0)",
+    content: `## Digital artwork and motion, built for production.\n\nAs a Digital Artworker at McCann Manchester, I work on high-volume digital and motion content for national brands across multiple platforms. My role sits at the intersection of speed and craft: adapting static creative into polished motion, managing large sets of versions, and making sure everything is brand-accurate, accessible and ready to go live.\n\n<div class="image-grid-mixed">
+    <img src="/assets/images/artworker_1.jpg" />
+    <img src="/assets/images/artworker_2.jpg" />
+    <img src="/assets/images/artworker_3.jpg" />
+    <img src="/assets/images/artworker_4.jpg" />
+    <img src="/assets/images/artworker_5.jpg" />
+    <img src="/assets/images/artworker_6.jpg" />
+</div>`,
+  },
+  {
+    title: "Rural Data Drift",
     imgSrc: "assets/images/rural_data_drift_title.jpg",
     imgAlt: "Rural Data Drift album cover",
     to: "/pages/developer",
@@ -22,7 +37,8 @@ const workData: WorkDataItem[] = [
     <img src="/assets/images/rural_data_drift_5.jpg" />
     <img src="/assets/images/rural_data_drift_6.jpg" />
 </div>`,
-  },  
+  },
+
   {
     title: "Web Design & Development",
     imgSrc: "assets/images/me_coder.jpg",
