@@ -121,12 +121,12 @@ As a Digital Artworker at McCann Manchester, I work on high-volume digital and m
     
 
 <div class="image-grid-mixed">
-    <img src="/assets/images/artworker_1.jpg" />
-    <img src="/assets/images/artworker_2.jpg" />
-    <img src="/assets/images/artworker_3.jpg" />
-    <img src="/assets/images/artworker_4.jpg" />
-    <img src="/assets/images/artworker_5.jpg" />
-    <img src="/assets/images/artworker_6.jpg" />
+    <img src="/assets/images/artworker_1.jpg" alt="Artworker example - Aldi Super6" />
+    <img src="/assets/images/artworker_2.jpg" alt="Artworker example - Miller Homes Carousel" />
+    <img src="/assets/images/artworker_3.jpg" alt="Artworker example - Warburtons" />
+    <img src="/assets/images/artworker_4.jpg" alt="Artworker example - Aldi Super6" />
+    <img src="/assets/images/artworker_5.jpg" alt="Artworker example - Zoflora" />
+    <img src="/assets/images/artworker_6.jpg" alt="Artworker example - Kia" />
 </div>`},{title:"Rural Data Drift",imgSrc:"assets/images/rural_data_drift_title.jpg",imgAlt:"Rural Data Drift album cover",to:"/pages/developer",borderColor:"rgb(103, 93, 87)",content:`## Album / Modular Synth Composition.
 
 Rural Data Drift is a deeply personal and introspective electronic album, born from a rare five-day retreat in the beautiful rural countryside. Away from family, work, and daily demands, I immersed myself in uninterrupted creative flow-long walks, infrared photography, simple meals, and spontaneous music-making.
@@ -136,13 +136,13 @@ Equipped with a modular synthesizer, keyboard, and laptop, I captured ideas as t
 Released on January 2, 2026, the album is available on Bandcamp as pay-what-you-like, inviting listeners to engage without obligation - [Available Here](https://misterben.bandcamp.com/album/rural-data-drift).
 
 <div class="image-grid">
-    <img src="/assets/images/rural_data_drift_1.jpg" />
-    <img src="/assets/images/rural_data_drift_2.jpg" />
-    <img src="/assets/images/rural_data_drift_3.jpg" />
-    <img src="/assets/images/rural_data_drift_4.jpg" />
-    <img src="/assets/images/rural_data_drift_5.jpg" />
-    <img src="/assets/images/rural_data_drift_6.jpg" />
-</div>`},{title:"Web Design & Development",imgSrc:"assets/images/me_coder.jpg",imgAlt:"Web Developer",to:"/pages/developer",borderColor:"#F00",content:`## I started building websites in 1997.
+    <img src="/assets/images/rural_data_drift_1.jpg" alt="Rural Data Drift 1" />
+    <img src="/assets/images/rural_data_drift_2.jpg" alt="Rural Data Drift 2" />
+    <img src="/assets/images/rural_data_drift_3.jpg" alt="Rural Data Drift 3" />
+    <img src="/assets/images/rural_data_drift_4.jpg" alt="Rural Data Drift 4" />
+    <img src="/assets/images/rural_data_drift_5.jpg" alt="Rural Data Drift 5" />
+    <img src="/assets/images/rural_data_drift_6.jpg" alt="Rural Data Drift 6" />
+</div><div class="instagram-video-x3"><div className="instagram-video"><iframe src="https://www.instagram.com/reel/DSx9F8TDzUf/embed" width="auto" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div><div className="instagram-video"><iframe src="https://www.instagram.com/reel/DS26jY_jxGs/embed" width="auto" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div><div className="instagram-video"><iframe src="https://www.instagram.com/reel/DTAetDtkuoB/embed" width="auto" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div</div>`},{title:"Web Design & Development",imgSrc:"assets/images/me_coder.jpg",imgAlt:"Web Developer",to:"/pages/developer",borderColor:"#F00",content:`## I started building websites in 1997.
 
 I was lucky to start my career at Arcadia Group, creating fashion pages for TopMan, TopShop, Racing Green, Burton, and several other sites. At this time, websites were very simple. No CSS, just basic HTML and a sprinkling of JavaScript. This started a 15-year streak of building and designing websites. In the very early days, I was always expected to do both, but after going freelance I found there were many jobs in website development. Highlights include Ministry of Sound - my first freelance job, where I was brought in to code pages and fix JavaScript errors, and Syzygy Agency who I worked for over a period of 2 years on many projects including front end page building on sites like Mazda, Mercedes, Jewsons, Boots (TV site), up to senior front end developer (overseeing a team of junior developers) on Curry's and The Link websites.
 
@@ -156,7 +156,7 @@ More recently, I learnt WordPress in my own time, and have created a number of s
 
 Most recently (Oct 23 - Jan 24), I completed a full stack Web Developer course from Tech Returners. This was a refresher course, which after my career break looking after my children, allowed me to get back in touch with the coding world, and re-learn both front end and back end website coding with JavaScript. It covered the most common requirements of today's code stack, including HTML, CSS (BEM, Tailwind), TypeScript, ES6, React, Node.js, TDD, MVC, Git, JSON, and more. I got to work both solo and in teams, and even learnt pair programming. It massively increased my confidence in coding and has reignited my desire to work again in the web development world.
 
-![Tech Returners Certificate](/assets/images/tech-returners-certificate.jpg)
+ <img src="/assets/images/tech-returners-certificate.jpg" alt="Tech Returners Certificate" style="max-width:60%; height:auto;" />
 
 Oh and I also built this site (the one you're looking at right now), originally in vanilla HTML, CSS and bits of JavaScript, but now completely rebuilt as a React site, with React Router and BEM CSS.`},{title:"Rip Eat Repeat",imgSrc:"assets/images/w_ripeatrepeat.jpg",imgAlt:"Rip Eat Repeat AI video",to:"/pages/ripeatrepeat",borderColor:"#0F0",content:`Rip Eat Repeat is a drum & bass track I contributed to a compilation album supporting Mind, the mental health charity. To bring this track to life visually, I experimented with the Noisee AI video generator, creating a dynamic music video.
 
