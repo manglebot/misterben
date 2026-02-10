@@ -103,7 +103,12 @@
 .instagram-video-x3 .instagram-video {
   /* max-width: 400px; */
   padding: 10px;
+  display: flex;
+  flex: 1 1 420px;
 }
+/* .instagram-video-x3 iframe {
+  aspect-ratio: 1 / 1;
+} */
 
 .main__layout .main__content > .inner-page .horizontal-video iframe {
   width: 100%;
