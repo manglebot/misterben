@@ -9,9 +9,9 @@ export interface WorkDataItem {
 
 const workData: WorkDataItem[] = [
   {
-    title: "Artworker",
+    title: "Digital Artworker",
     imgSrc: "assets/images/mccann.jpg",
-    imgAlt: "Artworker",
+    imgAlt: "Digital Artworker",
     to: "/pages/artworker",
     borderColor: "rgb(0, 0, 0)",
     content: `## Digital artwork and motion, built for production.\n\nAs a Digital Artworker at McCann Manchester, I work on high-volume digital and motion content for national brands across multiple platforms. My role sits at the intersection of speed and craft: adapting static creative into polished motion, managing large sets of versions, and making sure everything is brand-accurate, accessible and ready to go live.\n\nHere's a very brief showcase of my production work, featuring pieces for Aldi, Warburtons and McCain.
